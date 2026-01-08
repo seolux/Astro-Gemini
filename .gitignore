@@ -1,0 +1,9 @@
+# Ignorer les clés API locales
+.env
+
+# Ignorer les dossiers lourds générés par Node
+node_modules/
+
+# Ignorer les fichiers système Mac/Windows inutiles
+.DS_Store
+Thumbs.db

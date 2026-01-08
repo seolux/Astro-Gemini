@@ -1,10 +1,7 @@
 /**
- * Frontend Script - Version Statique
- * Gère uniquement l'interactivité du widget (Calculateur)
+ * Frontend Script
  */
-
 document.addEventListener('DOMContentLoaded', () => {
-    // Remplir les jours dans le selecteur
     const daySelect = document.getElementById('calc-day');
     if (daySelect) {
         for (let i = 1; i <= 31; i++) {
@@ -14,12 +11,9 @@ document.addEventListener('DOMContentLoaded', () => {
             daySelect.appendChild(opt);
         }
     }
-
-    // Initialiser les icônes Lucide
     if (typeof lucide !== 'undefined') lucide.createIcons();
 });
 
-// Données statiques pour le calcul
 const SIGNS_DATA = [
     { id: 'belier', start: {m:2, d:21}, end: {m:3, d:19} },
     { id: 'taureau', start: {m:3, d:20}, end: {m:4, d:20} },
@@ -35,21 +29,19 @@ const SIGNS_DATA = [
     { id: 'poissons', start: {m:1, d:19}, end: {m:2, d:20} },
 ];
 
-function findSign(day, monthIndex) {
+function findSign(day, month) {
     for (const sign of SIGNS_DATA) {
-        if (sign.start.m === monthIndex && day >= sign.start.d) return sign.id;
-        if (sign.end.m === monthIndex && day <= sign.end.d) return sign.id;
+        if (sign.start.m === month && day >= sign.start.d) return sign.id;
+        if (sign.end.m === month && day <= sign.end.d) return sign.id;
     }
-    return 'capricorne'; // Fallback
+    return 'capricorne';
 }
 
-// Fonction appelée par le bouton "Calculer"
 function calculateSignRedirect() {
     const day = parseInt(document.getElementById('calc-day').value);
     const month = parseInt(document.getElementById('calc-month').value);
-    
     const signId = findSign(day, month);
     
-    // Redirection vers la page statique générée
-    window.location.href = `horoscope-${signId}.html`;
+    // Modification ICI : redirection vers le dossier
+    window.location.href = `horoscope-${signId}/`;
 }

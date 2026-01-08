@@ -1,23 +1,11 @@
 /**
- * BUILDER.JS - Générateur de Site Statique SEO
- * Usage: node builder.js
+ * BUILDER.JS - Version SEO Friendly (Clean URLs) & Timestamp
  */
 const fs = require('fs/promises');
 const path = require('path');
 
-// Configuration du site
+// URL du site (important pour les balises canonical)
 const SITE_URL = "https://astro.lu"; 
-const OUTPUT_DIR = __dirname;
-
-// 1. Calcul de la date de mise à jour (format : 8 janvier 2026 à 10:30)
-const now = new Date();
-const UPDATE_TIME = now.toLocaleDateString('fr-FR', {
-    day: 'numeric', 
-    month: 'long', 
-    year: 'numeric', 
-    hour: '2-digit', 
-    minute: '2-digit'
-});
 
 const SIGNS = [
     { id: 'belier', name: 'Bélier', symbol: '♈', dateStr: '21 Mars - 19 Avril' },
@@ -34,8 +22,15 @@ const SIGNS = [
     { id: 'poissons', name: 'Poissons', symbol: '♓', dateStr: '19 Février - 20 Mars' },
 ];
 
-// Template HTML de base (Header/Footer communs)
-const getBaseHtml = (seo, content, isHome = false) => `
+// Date de génération pour le footer
+const NOW = new Date();
+const BUILD_DATE = NOW.toLocaleDateString('fr-FR', {
+    day: 'numeric', month: 'long', year: 'numeric',
+    hour: '2-digit', minute: '2-digit'
+});
+
+// Template HTML de base (adaptable selon la profondeur du dossier)
+const getBaseHtml = (seo, content, rootPath = '.') => `
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -53,23 +48,23 @@ const getBaseHtml = (seo, content, isHome = false) => `
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="${rootPath}/style.css">
     <script src="https://unpkg.com/lucide@latest"></script>
 </head>
 <body>
     <div class="video-overlay"></div>
     <video autoplay muted loop playsinline id="bg-video">
-        <source src="zodiak.mp4" type="video/mp4">
+        <source src="${rootPath}/zodiak.mp4" type="video/mp4">
     </video>
 
     <header class="site-header">
         <div class="container header-content">
-            <a href="index.html" class="logo" style="text-decoration:none;">
+            <a href="${rootPath}/" class="logo" style="text-decoration:none;">
                 <i data-lucide="sparkles" class="logo-icon"></i>
                 <span>Astro.lu</span>
             </a>
             <nav class="nav-links">
-                <a href="index.html">Accueil</a>
+                <a href="${rootPath}/">Accueil</a>
             </nav>
         </div>
     </header>
@@ -80,22 +75,20 @@ const getBaseHtml = (seo, content, isHome = false) => `
 
     <footer class="site-footer">
         <div class="container">
-            <p>&copy; ${new Date().getFullYear()} Astro.lu &bull; Guidé par les étoiles.</p>
-            <p style="font-size: 0.85em; opacity: 0.6; margin-top: 0.5rem;">
-                Dernière mise à jour : ${UPDATE_TIME}
+            <p>&copy; ${NOW.getFullYear()} Astro.lu &bull; Guidé par les étoiles.</p>
+            <p style="font-size: 0.75rem; opacity: 0.6; margin-top: 0.5rem;">
+                Dernière mise à jour des astres : ${BUILD_DATE}
             </p>
         </div>
     </footer>
 
-    <script src="script.js"></script>
-    <script>
-        lucide.createIcons();
-    </script>
+    <script src="${rootPath}/script.js"></script>
+    <script>lucide.createIcons();</script>
 </body>
 </html>`;
 
 async function build() {
-    console.log("🏗️  Démarrage de la construction du site statique...");
+    console.log("🏗️  Démarrage de la construction SEO Friendly...");
 
     // 1. Charger le Summary
     let summary = {};
@@ -104,8 +97,8 @@ async function build() {
         summary = JSON.parse(summaryData);
     } catch (e) { console.error("⚠️ Pas de summary.json trouvé."); }
 
-    // --- CONSTRUCTION DE LA HOMEPAGE ---
-    console.log("📄 Génération de index.html");
+    // --- HOMEPAGE (Racine) ---
+    console.log("📄 Génération de index.html (Racine)");
     
     const gridHtml = SIGNS.map(sign => {
         const info = summary[sign.id] || {};
@@ -113,8 +106,9 @@ async function build() {
         const teaser = info.teaser || "Découvrez vos prévisions...";
         const stars = '★'.repeat(rating) + '☆'.repeat(5 - rating);
         
+        // Lien propre : "horoscope-belier/" (sans .html)
         return `
-        <a href="horoscope-${sign.id}.html" class="sign-card" style="text-decoration:none;">
+        <a href="horoscope-${sign.id}/" class="sign-card" style="text-decoration:none;">
             <div class="sign-icon-circle">${sign.symbol}</div>
             <div class="card-header">
                 <span class="sign-name">${sign.name}</span>
@@ -129,7 +123,7 @@ async function build() {
         <div class="hero-split">
             <div class="hero-date-block">
                 <span class="hero-label">Horoscope du</span>
-                <h1 id="hero-date">${new Date().toLocaleDateString('fr-FR', {weekday:'long', day:'numeric', month:'long', year:'numeric'})}</h1>
+                <h1 id="hero-date">${NOW.toLocaleDateString('fr-FR', {weekday:'long', day:'numeric', month:'long', year:'numeric'})}</h1>
             </div>
             <div class="hero-sign-block">
                  <p style="font-size:1.1rem; color:#fff;">Les étoiles vous guident aujourd'hui.</p>
@@ -151,27 +145,26 @@ async function build() {
                 </div>
             </div>
         </div>
-
         <div class="zodiac-grid">${gridHtml}</div>
-        
         <div class="seo-text" style="background:var(--glass-bg); padding:2rem; border-radius:12px; margin-top:2rem;">
             <h2>Horoscope Gratuit du Jour</h2>
-            <p>Retrouvez votre horoscope quotidien complet sur Astro.lu. Nos astrologues analysent les mouvements planétaires pour vous offrir des prévisions précises en amour, travail et santé pour les 12 signes du zodiaque : Bélier, Taureau, Gémeaux, Cancer, Lion, Vierge, Balance, Scorpion, Sagittaire, Capricorne, Verseau et Poissons.</p>
+            <p>Retrouvez votre horoscope quotidien complet sur Astro.lu...</p>
         </div>
     `;
 
     const homeSeo = {
         title: "Horoscope du Jour Gratuit - Astro.lu",
-        description: "Consultez votre horoscope quotidien gratuit. Amour, travail, santé : découvrez ce que les astres réservent à votre signe aujourd'hui.",
-        url: `${SITE_URL}/index.html`
+        description: "Consultez votre horoscope quotidien gratuit.",
+        url: `${SITE_URL}/`
     };
 
-    await fs.writeFile('index.html', getBaseHtml(homeSeo, homeContent, true));
+    // La home reste à la racine
+    await fs.writeFile('index.html', getBaseHtml(homeSeo, homeContent, '.'));
 
 
-    // --- CONSTRUCTION DES PAGES SIGNES ---
+    // --- PAGES SIGNES (Dossiers) ---
     for (const sign of SIGNS) {
-        console.log(`✨ Génération de horoscope-${sign.id}.html`);
+        console.log(`✨ Génération du dossier : horoscope-${sign.id}/`);
         
         let data = { 
             general: "Contenu indisponible.", 
@@ -184,12 +177,12 @@ async function build() {
         try {
             const jsonContent = await fs.readFile(path.join(__dirname, `data/${sign.id}.json`), 'utf-8');
             data = JSON.parse(jsonContent);
-        } catch (e) { console.log(`   Info: Pas de JSON pour ${sign.id}, utilisation défaut.`); }
+        } catch (e) { }
 
         const stars = (r) => '★'.repeat(r) + '☆'.repeat(5 - r);
 
         const signContent = `
-            <a href="index.html" class="btn-back"><i data-lucide="chevron-left"></i> Retour aux signes</a>
+            <a href="../" class="btn-back"><i data-lucide="chevron-left"></i> Retour aux signes</a>
 
             <article class="horoscope-full">
                 <header class="horoscope-header">
@@ -218,7 +211,6 @@ async function build() {
                         </div>
                         <p>${data.love}</p>
                     </section>
-                    
                     <section class="domain-card">
                         <div class="domain-header">
                             <h3>💼 Travail</h3>
@@ -226,7 +218,6 @@ async function build() {
                         </div>
                         <p>${data.work}</p>
                     </section>
-                    
                     <section class="domain-card">
                         <div class="domain-header">
                             <h3>⚕️ Santé</h3>
@@ -239,30 +230,36 @@ async function build() {
         `;
 
         const signSeo = {
-            title: `Horoscope ${sign.name} du Jour - Amour, Travail, Santé`,
-            description: `Prévisions gratuites pour le ${sign.name} aujourd'hui : ${data.teaser || "climat astral, amours et conseils..."}`,
-            url: `${SITE_URL}/horoscope-${sign.id}.html`
+            title: `Horoscope ${sign.name} du Jour - Astro.lu`,
+            description: `Prévisions gratuites pour le ${sign.name} aujourd'hui : ${data.teaser || "climat astral..."}`,
+            url: `${SITE_URL}/horoscope-${sign.id}/` // URL propre
         };
 
-        await fs.writeFile(`horoscope-${sign.id}.html`, getBaseHtml(signSeo, signContent));
+        // CRÉATION DU DOSSIER
+        const folderPath = path.join(__dirname, `horoscope-${sign.id}`);
+        await fs.mkdir(folderPath, { recursive: true });
+
+        // CRÉATION DU INDEX.HTML DANS LE DOSSIER
+        // Note le '..' pour dire à getBaseHtml qu'on est descendu d'un niveau
+        await fs.writeFile(path.join(folderPath, 'index.html'), getBaseHtml(signSeo, signContent, '..'));
     }
 
     // --- SITEMAP ---
     console.log("🗺️  Génération du Sitemap.xml");
-    const today = new Date().toISOString().split('T')[0];
+    const sitemapDate = NOW.toISOString().split('T')[0];
     let sitemap = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-        <loc>${SITE_URL}/index.html</loc>
-        <lastmod>${today}</lastmod>
+        <loc>${SITE_URL}/</loc>
+        <lastmod>${sitemapDate}</lastmod>
         <priority>1.0</priority>
     </url>`;
 
     SIGNS.forEach(sign => {
         sitemap += `
     <url>
-        <loc>${SITE_URL}/horoscope-${sign.id}.html</loc>
-        <lastmod>${today}</lastmod>
+        <loc>${SITE_URL}/horoscope-${sign.id}/</loc>
+        <lastmod>${sitemapDate}</lastmod>
         <priority>0.8</priority>
     </url>`;
     });
@@ -270,7 +267,7 @@ async function build() {
     sitemap += `\n</urlset>`;
     await fs.writeFile('sitemap.xml', sitemap);
 
-    console.log("✅ Site statique généré avec date de mise à jour !");
+    console.log("✅ Site généré : URLs propres & Timestamp Footer !");
 }
 
 build();

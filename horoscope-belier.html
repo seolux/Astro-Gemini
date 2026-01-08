@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horoscope Bélier du Jour - Amour, Travail, Santé</title>
+    <meta name="description" content="Prévisions gratuites pour le Bélier aujourd'hui : Mars vous pousse vers l'avant, les défis vous révèlent.">
+    <link rel="canonical" href="https://astro.lu/horoscope-belier.html">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://astro.lu/horoscope-belier.html">
+    <meta property="og:title" content="Horoscope Bélier du Jour - Amour, Travail, Santé">
+    <meta property="og:description" content="Prévisions gratuites pour le Bélier aujourd'hui : Mars vous pousse vers l'avant, les défis vous révèlent.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="video-overlay"></div>
+    <video autoplay muted loop playsinline id="bg-video">
+        <source src="zodiak.mp4" type="video/mp4">
+    </video>
+
+    <header class="site-header">
+        <div class="container header-content">
+            <a href="index.html" class="logo" style="text-decoration:none;">
+                <i data-lucide="sparkles" class="logo-icon"></i>
+                <span>Astro.lu</span>
+            </a>
+            <nav class="nav-links">
+                <a href="index.html">Accueil</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container main-wrapper">
+        
+            <a href="index.html" class="btn-back"><i data-lucide="chevron-left"></i> Retour aux signes</a>
+
+            <article class="horoscope-full">
+                <header class="horoscope-header">
+                    <div class="header-symbol">♈</div>
+                    <h1 class="horoscope-title">Bélier</h1>
+                    <p class="sign-dates">21 Mars - 19 Avril</p>
+                    
+                    <div class="header-meta">
+                        <span class="date-badge">Horoscope du jeudi 8 janvier 2026</span>
+                        <span class="lucky-badge">🍀 17 • Rouge</span>
+                    </div>
+                </header>
+
+                <div class="main-prediction">
+                    <p>Avec la Lune en harmonie avec votre Mars natal, l'énergie est au rendez-vous. Votre audace naturelle est décuplée, mais canalisez-la pour éviter l'impulsivité.</p>
+                    <div class="advice-box">
+                        <strong>💡 Conseil du jour :</strong> Avancez avec courage, mais gardez un œil sur vos limites.
+                    </div>
+                </div>
+
+                <div class="domains-grid">
+                    <section class="domain-card">
+                        <div class="domain-header">
+                            <h3>❤️ Amour</h3>
+                            <div class="rating-stars">★★★★☆</div>
+                        </div>
+                        <p>Vénus encourage la spontanéité. Une rencontre inattendue pourrait vous surprendre. En couple, osez l'improvisation pour raviver la flamme.</p>
+                    </section>
+                    
+                    <section class="domain-card">
+                        <div class="domain-header">
+                            <h3>💼 Travail</h3>
+                            <div class="rating-stars">★★★★★</div>
+                        </div>
+                        <p>Votre leadership s'impose naturellement. Une opportunité audacieuse se présente, mais réfléchissez avant de foncer tête baissée.</p>
+                    </section>
+                    
+                    <section class="domain-card">
+                        <div class="domain-header">
+                            <h3>⚕️ Santé</h3>
+                            <div class="rating-stars">★★★☆☆</div>
+                        </div>
+                        <p>Votre vitalité est au top. Attention à ne pas vous épuiser par excès d'enthousiasme. Prévoyez des moments de calme pour récupérer.</p>
+                    </section>
+                </div>
+            </article>
+        
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Astro.lu &bull; Guidé par les étoiles.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

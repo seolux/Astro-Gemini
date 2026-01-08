@@ -1,0 +1,50 @@
+{
+  "belier": {
+    "teaser": "Mars vous pousse vers l'avant, les défis vous révèlent.",
+    "rating": 4
+  },
+  "taureau": {
+    "teaser": "La patience révèle des trésors cachés sous la lune complice.",
+    "rating": 4
+  },
+  "gemeaux": {
+    "teaser": "Mercure illumine vos échanges, journée de brillantes opportunités",
+    "rating": 4
+  },
+  "cancer": {
+    "teaser": "La Lune éclaire vos projets les plus secrets.",
+    "rating": 4
+  },
+  "lion": {
+    "teaser": "Soleil bienveillant illumine vos projets audacieux.",
+    "rating": 4
+  },
+  "vierge": {
+    "teaser": "Mercure révèle vos talents cachés.",
+    "rating": 4
+  },
+  "balance": {
+    "teaser": "La justice céleste penche en votre faveur aujourd'hui",
+    "rating": 4
+  },
+  "scorpion": {
+    "teaser": "Mars éveille vos passions, transformation intense s'annonce",
+    "rating": 4
+  },
+  "sagittaire": {
+    "teaser": "Votre optimisme vous portera vers de nouveaux horizons",
+    "rating": 4
+  },
+  "capricorne": {
+    "teaser": "Saturne illumine votre persévérance, une journée structurante vous attend",
+    "rating": 4
+  },
+  "verseau": {
+    "teaser": "Uranus éclaire votre génie, le destin s'accélère",
+    "rating": 5
+  },
+  "poissons": {
+    "teaser": "Neptune vous inspire, laissez votre intuition guider vos pas.",
+    "rating": 4
+  }
+}

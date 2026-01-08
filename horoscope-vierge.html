@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horoscope Vierge du Jour - Amour, Travail, Santé</title>
+    <meta name="description" content="Prévisions gratuites pour le Vierge aujourd'hui : Mercure révèle vos talents cachés.">
+    <link rel="canonical" href="https://astro.lu/horoscope-vierge.html">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://astro.lu/horoscope-vierge.html">
+    <meta property="og:title" content="Horoscope Vierge du Jour - Amour, Travail, Santé">
+    <meta property="og:description" content="Prévisions gratuites pour le Vierge aujourd'hui : Mercure révèle vos talents cachés.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="video-overlay"></div>
+    <video autoplay muted loop playsinline id="bg-video">
+        <source src="zodiak.mp4" type="video/mp4">
+    </video>
+
+    <header class="site-header">
+        <div class="container header-content">
+            <a href="index.html" class="logo" style="text-decoration:none;">
+                <i data-lucide="sparkles" class="logo-icon"></i>
+                <span>Astro.lu</span>
+            </a>
+            <nav class="nav-links">
+                <a href="index.html">Accueil</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container main-wrapper">
+        
+            <a href="index.html" class="btn-back"><i data-lucide="chevron-left"></i> Retour aux signes</a>
+
+            <article class="horoscope-full">
+                <header class="horoscope-header">
+                    <div class="header-symbol">♍</div>
+                    <h1 class="horoscope-title">Vierge</h1>
+                    <p class="sign-dates">23 Août - 22 Septembre</p>
+                    
+                    <div class="header-meta">
+                        <span class="date-badge">Horoscope du jeudi 8 janvier 2026</span>
+                        <span class="lucky-badge">🍀 17 • Bleu saphir</span>
+                    </div>
+                </header>
+
+                <div class="main-prediction">
+                    <p>La Lune en Vierge amplifie votre intuition. Une journée propice à l'introspection et à la planification de vos projets les plus chers.</p>
+                    <div class="advice-box">
+                        <strong>💡 Conseil du jour :</strong> Prenez le temps de noter vos idées : elles seront précieuses demain.
+                    </div>
+                </div>
+
+                <div class="domains-grid">
+                    <section class="domain-card">
+                        <div class="domain-header">
+                            <h3>❤️ Amour</h3>
+                            <div class="rating-stars">★★★★☆</div>
+                        </div>
+                        <p>Vénus favorise les conversations profondes. Célibataire, une rencontre surprenante vous attend. En couple, complicité renforcée.</p>
+                    </section>
+                    
+                    <section class="domain-card">
+                        <div class="domain-header">
+                            <h3>💼 Travail</h3>
+                            <div class="rating-stars">★★★★★</div>
+                        </div>
+                        <p>Votre sens de l'organisation est au zénith. Excellente période pour structurer vos dossiers et négocier avec lucidité.</p>
+                    </section>
+                    
+                    <section class="domain-card">
+                        <div class="domain-header">
+                            <h3>⚕️ Santé</h3>
+                            <div class="rating-stars">★★★★☆</div>
+                        </div>
+                        <p>Équilibre retrouvé. Privilégiez les activités douces comme le yoga ou la marche pour évacuer le stress.</p>
+                    </section>
+                </div>
+            </article>
+        
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Astro.lu &bull; Guidé par les étoiles.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

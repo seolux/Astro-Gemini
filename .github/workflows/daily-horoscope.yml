@@ -1,0 +1,39 @@
+name: Daily Horoscope Update
+
+on:
+  schedule:
+    - cron: '0 5 * * *' # 5h00 du matin UTC
+  workflow_dispatch: # Permet de lancer manuellement
+
+permissions:
+  contents: write # IMPORTANT : Donne le droit au bot de modifier le code
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Récupération du code
+      uses: actions/checkout@v3
+
+    - name: Installation de Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    - name: Installation des dépendances
+      run: npm install
+
+    - name: Génération du Site
+      env:
+        OPENROUTER_API_KEYS: ${{ secrets.OPENROUTER_API_KEYS }}
+      run: node update.js
+
+    - name: Commit et Push
+      run: |
+        git config --global user.name 'Astro Bot'
+        git config --global user.email 'bot@astro.lu'
+        git add .
+        # Le commit échouera s'il n'y a rien à changer (c'est normal)
+        git commit -m "🔮 Mise à jour quotidienne" || exit 0
+        git push

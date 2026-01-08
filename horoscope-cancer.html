@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horoscope Cancer du Jour - Amour, Travail, Santé</title>
+    <meta name="description" content="Prévisions gratuites pour le Cancer aujourd'hui : La Lune éclaire vos projets les plus secrets.">
+    <link rel="canonical" href="https://astro.lu/horoscope-cancer.html">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://astro.lu/horoscope-cancer.html">
+    <meta property="og:title" content="Horoscope Cancer du Jour - Amour, Travail, Santé">
+    <meta property="og:description" content="Prévisions gratuites pour le Cancer aujourd'hui : La Lune éclaire vos projets les plus secrets.">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="video-overlay"></div>
+    <video autoplay muted loop playsinline id="bg-video">
+        <source src="zodiak.mp4" type="video/mp4">
+    </video>
+
+    <header class="site-header">
+        <div class="container header-content">
+            <a href="index.html" class="logo" style="text-decoration:none;">
+                <i data-lucide="sparkles" class="logo-icon"></i>
+                <span>Astro.lu</span>
+            </a>
+            <nav class="nav-links">
+                <a href="index.html">Accueil</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container main-wrapper">
+        
+            <a href="index.html" class="btn-back"><i data-lucide="chevron-left"></i> Retour aux signes</a>
+
+            <article class="horoscope-full">
+                <header class="horoscope-header">
+                    <div class="header-symbol">♋</div>
+                    <h1 class="horoscope-title">Cancer</h1>
+                    <p class="sign-dates">21 Juin - 22 Juillet</p>
+                    
+                    <div class="header-meta">
+                        <span class="date-badge">Horoscope du jeudi 8 janvier 2026</span>
+                        <span class="lucky-badge">🍀 23 • Bleu nuit</span>
+                    </div>
+                </header>
+
+                <div class="main-prediction">
+                    <p>Une énergie intuitive vous guide. Votre sensibilité sera votre meilleur atout pour saisir les opportunités qui se présentent dans l'ombre.</p>
+                    <div class="advice-box">
+                        <strong>💡 Conseil du jour :</strong> Suivez votre première impression aujourd'hui.
+                    </div>
+                </div>
+
+                <div class="domains-grid">
+                    <section class="domain-card">
+                        <div class="domain-header">
+                            <h3>❤️ Amour</h3>
+                            <div class="rating-stars">★★★★☆</div>
+                        </div>
+                        <p>Vos émotions sont à fleur de peau, favorisant les confidences et les rapprochements sincères. Une rencontre peut s'avérer décisive.</p>
+                    </section>
+                    
+                    <section class="domain-card">
+                        <div class="domain-header">
+                            <h3>💼 Travail</h3>
+                            <div class="rating-stars">★★★★★</div>
+                        </div>
+                        <p>Votre créativité et votre intuition vous permettront de résoudre des problèmes complexes avec une facilité déconcertante. Écoutez votre instinct.</p>
+                    </section>
+                    
+                    <section class="domain-card">
+                        <div class="domain-header">
+                            <h3>⚕️ Santé</h3>
+                            <div class="rating-stars">★★★☆☆</div>
+                        </div>
+                        <p>Prenez le temps de vous ressourcer. Votre énergie est fluctuante, privilégiez les activités calmes et un sommeil réparateur.</p>
+                    </section>
+                </div>
+            </article>
+        
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2026 Astro.lu &bull; Guidé par les étoiles.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

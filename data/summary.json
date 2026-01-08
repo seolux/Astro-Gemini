@@ -1,50 +1,50 @@
 {
   "belier": {
-    "teaser": "Mars vous pousse vers l'avant, les défis vous révèlent.",
+    "teaser": "Mars vous pousse à foncer, mais Vénus tempère vos ardeurs.",
     "rating": 4
   },
   "taureau": {
-    "teaser": "La patience révèle des trésors cachés sous la lune complice.",
+    "teaser": "Vénus illumine votre patience, récoltez les fruits de vos efforts",
     "rating": 4
   },
   "gemeaux": {
-    "teaser": "Mercure illumine vos échanges, journée de brillantes opportunités",
+    "teaser": "Mercure illumine vos échanges, journée de rencontres imprévues.",
     "rating": 4
   },
   "cancer": {
-    "teaser": "La Lune éclaire vos projets les plus secrets.",
+    "teaser": "La Lune éclaire votre chemin émotionnel.",
     "rating": 4
   },
   "lion": {
-    "teaser": "Soleil bienveillant illumine vos projets audacieux.",
-    "rating": 4
+    "teaser": "Le Soleil illumine vos projets. Une journée sous le signe de la réussite.",
+    "rating": 5
   },
   "vierge": {
-    "teaser": "Mercure révèle vos talents cachés.",
+    "teaser": "Mercure éclaire votre discernement, la clarté guide vos pas",
     "rating": 4
   },
   "balance": {
-    "teaser": "La justice céleste penche en votre faveur aujourd'hui",
+    "teaser": "Vénus vous sourit, un jour pour récolter et savourer.",
     "rating": 4
   },
   "scorpion": {
-    "teaser": "Mars éveille vos passions, transformation intense s'annonce",
+    "teaser": "Pluton intensifie vos intuitions, révélations en vue.",
     "rating": 4
   },
   "sagittaire": {
-    "teaser": "Votre optimisme vous portera vers de nouveaux horizons",
+    "teaser": "Jupiter illumine votre route vers de nouveaux horizons",
     "rating": 4
   },
   "capricorne": {
-    "teaser": "Saturne illumine votre persévérance, une journée structurante vous attend",
+    "teaser": "Saturne illumine votre patience, récolte imminente",
     "rating": 4
   },
   "verseau": {
-    "teaser": "Uranus éclaire votre génie, le destin s'accélère",
-    "rating": 5
+    "teaser": "Uranus éclaire votre intuition : une journée de surprises harmonieuses vous attend.",
+    "rating": 4
   },
   "poissons": {
-    "teaser": "Neptune vous inspire, laissez votre intuition guider vos pas.",
+    "teaser": "Neptune guide vos rêves, laissez-vous porter par l'intuition.",
     "rating": 4
   }
 }

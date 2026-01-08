@@ -4,20 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horoscope Poissons du Jour - Astro.lu</title>
-    <meta name="description" content="Prévisions gratuites pour le Poissons aujourd'hui : Neptune vous inspire, laissez votre intuition guider vos pas.">
+    <title>Horoscope Poissons du Jour - Prévisions 19 Février - 20 Mars | Astro.lu</title>
+    <meta name="description" content="Neptune guide vos rêves, laissez-vous porter par l'intuition. - Découvrez l'horoscope complet du Poissons : amour, travail, santé.">
     <link rel="canonical" href="https://astro.lu/horoscope-poissons/">
     
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://astro.lu/horoscope-poissons/">
-    <meta property="og:title" content="Horoscope Poissons du Jour - Astro.lu">
-    <meta property="og:description" content="Prévisions gratuites pour le Poissons aujourd'hui : Neptune vous inspire, laissez votre intuition guider vos pas.">
+    <meta property="og:title" content="Horoscope Poissons du Jour - Prévisions 19 Février - 20 Mars | Astro.lu">
+    <meta property="og:description" content="Neptune guide vos rêves, laissez-vous porter par l'intuition. - Découvrez l'horoscope complet du Poissons : amour, travail, santé.">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style.css">
     <script src="https://unpkg.com/lucide@latest"></script>
+    
 </head>
 <body>
     <div class="video-overlay"></div>
@@ -33,6 +34,8 @@
             </a>
             <nav class="nav-links">
                 <a href="../">Accueil</a>
+                <a href="../blog/">Blog</a>
+                <a href="../guides/">Guides</a>
             </nav>
         </div>
     </header>
@@ -48,51 +51,90 @@
                     <p class="sign-dates">19 Février - 20 Mars</p>
                     
                     <div class="header-meta">
-                        <span class="date-badge">Horoscope du jeudi 8 janvier 2026</span>
-                        <span class="lucky-badge">🍀 7 • Bleu marine</span>
+                        <span class="date-badge"><i data-lucide="calendar"></i> jeudi 8 janvier 2026</span>
+                        <span class="lucky-badge"><i data-lucide="sparkles"></i> 7 • Bleu marine</span>
                     </div>
                 </header>
 
                 <div class="main-prediction">
-                    <p>Journée de sensibilité accrue sous l'influence de Neptune. Votre intuition sera particulièrement aiguisée, vous permettant de percevoir des énergies subtiles. Écoutez votre voix intérieure, elle vous guidera vers les bonnes décisions.</p>
+                    <p>Sous l'influence bienveillante de Neptune, votre intuition sera particulièrement aiguisée aujourd'hui. Écoutez cette petite voix intérieure qui vous guide vers des chemins inattendus et créatifs.</p>
                     <div class="advice-box">
-                        <strong>💡 Conseil du jour :</strong> Faites confiance à votre première impression aujourd'hui.
+                        <i data-lucide="lightbulb"></i>
+                        <div>
+                            <strong>Conseil du jour</strong>
+                            <p>Faites confiance à votre première impression aujourd'hui.</p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="domains-grid">
                     <section class="domain-card">
                         <div class="domain-header">
-                            <h3>❤️ Amour</h3>
+                            <h3><i data-lucide="heart"></i> Amour</h3>
                             <div class="rating-stars">★★★★★</div>
                         </div>
-                        <p>Les sentiments s'expriment avec plus de profondeur. Les célibataires pourraient vivre une rencontre marquante. En couple, complicité et tendresse renforcent vos liens.</p>
+                        <p>Votre charme naturel opère, favorisant les rencontres et les retrouvailles. Les célibataires pourraient vivre un coup de foudre. En couple, complicité renforcée.</p>
                     </section>
                     <section class="domain-card">
                         <div class="domain-header">
-                            <h3>💼 Travail</h3>
+                            <h3><i data-lucide="briefcase"></i> Travail</h3>
                             <div class="rating-stars">★★★★☆</div>
                         </div>
-                        <p>Votre créativité est au zénith. Profitez-en pour présenter vos projets les plus innovants. La collaboration avec vos collègues sera harmonieuse et productive.</p>
+                        <p>Votre imagination débordante sera un atout pour résoudre des problèmes complexes. Ne sous-estimez pas vos idées, même les plus folles. Collaboration fructueuse.</p>
                     </section>
                     <section class="domain-card">
                         <div class="domain-header">
-                            <h3>⚕️ Santé</h3>
+                            <h3><i data-lucide="activity"></i> Santé</h3>
                             <div class="rating-stars">★★★☆☆</div>
                         </div>
-                        <p>Équilibre délicat entre énergie et fatigue. Accordez-vous des moments de repos pour recharger vos batteries. La méditation vous sera bénéfique.</p>
+                        <p>Équilibre délicat entre énergie et sensibilité. Privilégiez les activités apaisantes comme la méditation ou une promenade au grand air pour vous ressourcer.</p>
                     </section>
+                </div>
+
+                <div class="share-section">
+                    <p>Partagez cet horoscope</p>
+                    <div class="share-buttons">
+                        <button onclick="shareHoroscope('facebook')" class="share-btn">
+                            <i data-lucide="facebook"></i>
+                        </button>
+                        <button onclick="shareHoroscope('twitter')" class="share-btn">
+                            <i data-lucide="twitter"></i>
+                        </button>
+                        <button onclick="copyLink()" class="share-btn">
+                            <i data-lucide="link"></i>
+                        </button>
+                    </div>
                 </div>
             </article>
         
     </main>
 
     <footer class="site-footer">
-        <div class="container">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h4>Astro.lu</h4>
+                <p>Votre horoscope quotidien alimenté par l'intelligence artificielle.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Explorer</h4>
+                <ul>
+                    <li><a href="../">Horoscopes</a></li>
+                    <li><a href="../blog/">Blog</a></li>
+                    <li><a href="../guides/">Guides</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Suivez-nous</h4>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
             <p>&copy; 2026 Astro.lu &bull; Guidé par les étoiles.</p>
-            <p style="font-size: 0.75rem; opacity: 0.6; margin-top: 0.5rem;">
-                Dernière mise à jour des astres : 8 janvier 2026 à 13:53
-            </p>
+            <p class="update-time">Dernière mise à jour : 8 janvier 2026 à 17:20</p>
         </div>
     </footer>
 

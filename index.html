@@ -4,20 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horoscope du Jour Gratuit - Astro.lu</title>
-    <meta name="description" content="Consultez votre horoscope quotidien gratuit.">
+    <title>Horoscope du Jour Gratuit - Prévisions Astrologiques | Astro.lu</title>
+    <meta name="description" content="Consultez votre horoscope quotidien gratuit. Prévisions astrologiques détaillées pour tous les signes du zodiaque.">
     <link rel="canonical" href="https://astro.lu/">
     
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://astro.lu/">
-    <meta property="og:title" content="Horoscope du Jour Gratuit - Astro.lu">
-    <meta property="og:description" content="Consultez votre horoscope quotidien gratuit.">
+    <meta property="og:title" content="Horoscope du Jour Gratuit - Prévisions Astrologiques | Astro.lu">
+    <meta property="og:description" content="Consultez votre horoscope quotidien gratuit. Prévisions astrologiques détaillées pour tous les signes du zodiaque.">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
     <script src="https://unpkg.com/lucide@latest"></script>
+    
 </head>
 <body>
     <div class="video-overlay"></div>
@@ -33,6 +34,8 @@
             </a>
             <nav class="nav-links">
                 <a href="./">Accueil</a>
+                <a href="./blog/">Blog</a>
+                <a href="./guides/">Guides</a>
             </nav>
         </div>
     </header>
@@ -45,13 +48,14 @@
                 <h1 id="hero-date">jeudi 8 janvier 2026</h1>
             </div>
             <div class="hero-sign-block">
-                 <p style="font-size:1.1rem; color:#fff;">Les étoiles vous guident aujourd'hui.</p>
+                <p class="hero-tagline">✨ Les étoiles vous guident aujourd'hui</p>
             </div>
         </div>
 
         <div class="sign-calculator-widget">
             <div class="widget-content">
                 <h3><i data-lucide="search"></i> Quel est mon signe ?</h3>
+                <p class="widget-subtitle">Trouvez votre signe astrologique et consultez vos prévisions</p>
                 <div class="calculator-form">
                     <select id="calc-day" class="form-select"></select>
                     <select id="calc-month" class="form-select">
@@ -64,6 +68,11 @@
                 </div>
             </div>
         </div>
+
+        <div class="section-header">
+            <h2>Les 12 Signes du Zodiaque</h2>
+            <p>Découvrez les prévisions détaillées pour chaque signe</p>
+        </div>
         <div class="zodiac-grid">
         <a href="horoscope-belier/" class="sign-card" style="text-decoration:none;">
             <div class="sign-icon-circle">♈</div>
@@ -71,8 +80,8 @@
                 <span class="sign-name">Bélier</span>
             </div>
             <div class="stars-container" title="4/5">★★★★☆</div>
-            <p class="sign-teaser">Mars vous pousse vers l'avant, les défis vous révèlent.</p>
-            <span class="card-link">Lire l'horoscope</span>
+            <p class="sign-teaser">Mars vous pousse à foncer, mais Vénus tempère vos ardeurs.</p>
+            <span class="card-link">Lire l'horoscope <i data-lucide="arrow-right"></i></span>
         </a>
         <a href="horoscope-taureau/" class="sign-card" style="text-decoration:none;">
             <div class="sign-icon-circle">♉</div>
@@ -80,8 +89,8 @@
                 <span class="sign-name">Taureau</span>
             </div>
             <div class="stars-container" title="4/5">★★★★☆</div>
-            <p class="sign-teaser">La patience révèle des trésors cachés sous la lune complice.</p>
-            <span class="card-link">Lire l'horoscope</span>
+            <p class="sign-teaser">Vénus illumine votre patience, récoltez les fruits de vos efforts</p>
+            <span class="card-link">Lire l'horoscope <i data-lucide="arrow-right"></i></span>
         </a>
         <a href="horoscope-gemeaux/" class="sign-card" style="text-decoration:none;">
             <div class="sign-icon-circle">♊</div>
@@ -89,8 +98,8 @@
                 <span class="sign-name">Gémeaux</span>
             </div>
             <div class="stars-container" title="4/5">★★★★☆</div>
-            <p class="sign-teaser">Mercure illumine vos échanges, journée de brillantes opportunités</p>
-            <span class="card-link">Lire l'horoscope</span>
+            <p class="sign-teaser">Mercure illumine vos échanges, journée de rencontres imprévues.</p>
+            <span class="card-link">Lire l'horoscope <i data-lucide="arrow-right"></i></span>
         </a>
         <a href="horoscope-cancer/" class="sign-card" style="text-decoration:none;">
             <div class="sign-icon-circle">♋</div>
@@ -98,17 +107,17 @@
                 <span class="sign-name">Cancer</span>
             </div>
             <div class="stars-container" title="4/5">★★★★☆</div>
-            <p class="sign-teaser">La Lune éclaire vos projets les plus secrets.</p>
-            <span class="card-link">Lire l'horoscope</span>
+            <p class="sign-teaser">La Lune éclaire votre chemin émotionnel.</p>
+            <span class="card-link">Lire l'horoscope <i data-lucide="arrow-right"></i></span>
         </a>
         <a href="horoscope-lion/" class="sign-card" style="text-decoration:none;">
             <div class="sign-icon-circle">♌</div>
             <div class="card-header">
                 <span class="sign-name">Lion</span>
             </div>
-            <div class="stars-container" title="4/5">★★★★☆</div>
-            <p class="sign-teaser">Soleil bienveillant illumine vos projets audacieux.</p>
-            <span class="card-link">Lire l'horoscope</span>
+            <div class="stars-container" title="5/5">★★★★★</div>
+            <p class="sign-teaser">Le Soleil illumine vos projets. Une journée sous le signe de la réussite.</p>
+            <span class="card-link">Lire l'horoscope <i data-lucide="arrow-right"></i></span>
         </a>
         <a href="horoscope-vierge/" class="sign-card" style="text-decoration:none;">
             <div class="sign-icon-circle">♍</div>
@@ -116,8 +125,8 @@
                 <span class="sign-name">Vierge</span>
             </div>
             <div class="stars-container" title="4/5">★★★★☆</div>
-            <p class="sign-teaser">Mercure révèle vos talents cachés.</p>
-            <span class="card-link">Lire l'horoscope</span>
+            <p class="sign-teaser">Mercure éclaire votre discernement, la clarté guide vos pas</p>
+            <span class="card-link">Lire l'horoscope <i data-lucide="arrow-right"></i></span>
         </a>
         <a href="horoscope-balance/" class="sign-card" style="text-decoration:none;">
             <div class="sign-icon-circle">♎</div>
@@ -125,8 +134,8 @@
                 <span class="sign-name">Balance</span>
             </div>
             <div class="stars-container" title="4/5">★★★★☆</div>
-            <p class="sign-teaser">La justice céleste penche en votre faveur aujourd'hui</p>
-            <span class="card-link">Lire l'horoscope</span>
+            <p class="sign-teaser">Vénus vous sourit, un jour pour récolter et savourer.</p>
+            <span class="card-link">Lire l'horoscope <i data-lucide="arrow-right"></i></span>
         </a>
         <a href="horoscope-scorpion/" class="sign-card" style="text-decoration:none;">
             <div class="sign-icon-circle">♏</div>
@@ -134,8 +143,8 @@
                 <span class="sign-name">Scorpion</span>
             </div>
             <div class="stars-container" title="4/5">★★★★☆</div>
-            <p class="sign-teaser">Mars éveille vos passions, transformation intense s'annonce</p>
-            <span class="card-link">Lire l'horoscope</span>
+            <p class="sign-teaser">Pluton intensifie vos intuitions, révélations en vue.</p>
+            <span class="card-link">Lire l'horoscope <i data-lucide="arrow-right"></i></span>
         </a>
         <a href="horoscope-sagittaire/" class="sign-card" style="text-decoration:none;">
             <div class="sign-icon-circle">♐</div>
@@ -143,8 +152,8 @@
                 <span class="sign-name">Sagittaire</span>
             </div>
             <div class="stars-container" title="4/5">★★★★☆</div>
-            <p class="sign-teaser">Votre optimisme vous portera vers de nouveaux horizons</p>
-            <span class="card-link">Lire l'horoscope</span>
+            <p class="sign-teaser">Jupiter illumine votre route vers de nouveaux horizons</p>
+            <span class="card-link">Lire l'horoscope <i data-lucide="arrow-right"></i></span>
         </a>
         <a href="horoscope-capricorne/" class="sign-card" style="text-decoration:none;">
             <div class="sign-icon-circle">♑</div>
@@ -152,17 +161,17 @@
                 <span class="sign-name">Capricorne</span>
             </div>
             <div class="stars-container" title="4/5">★★★★☆</div>
-            <p class="sign-teaser">Saturne illumine votre persévérance, une journée structurante vous attend</p>
-            <span class="card-link">Lire l'horoscope</span>
+            <p class="sign-teaser">Saturne illumine votre patience, récolte imminente</p>
+            <span class="card-link">Lire l'horoscope <i data-lucide="arrow-right"></i></span>
         </a>
         <a href="horoscope-verseau/" class="sign-card" style="text-decoration:none;">
             <div class="sign-icon-circle">♒</div>
             <div class="card-header">
                 <span class="sign-name">Verseau</span>
             </div>
-            <div class="stars-container" title="5/5">★★★★★</div>
-            <p class="sign-teaser">Uranus éclaire votre génie, le destin s'accélère</p>
-            <span class="card-link">Lire l'horoscope</span>
+            <div class="stars-container" title="4/5">★★★★☆</div>
+            <p class="sign-teaser">Uranus éclaire votre intuition : une journée de surprises harmonieuses vous attend.</p>
+            <span class="card-link">Lire l'horoscope <i data-lucide="arrow-right"></i></span>
         </a>
         <a href="horoscope-poissons/" class="sign-card" style="text-decoration:none;">
             <div class="sign-icon-circle">♓</div>
@@ -170,22 +179,47 @@
                 <span class="sign-name">Poissons</span>
             </div>
             <div class="stars-container" title="4/5">★★★★☆</div>
-            <p class="sign-teaser">Neptune vous inspire, laissez votre intuition guider vos pas.</p>
-            <span class="card-link">Lire l'horoscope</span>
+            <p class="sign-teaser">Neptune guide vos rêves, laissez-vous porter par l'intuition.</p>
+            <span class="card-link">Lire l'horoscope <i data-lucide="arrow-right"></i></span>
         </a></div>
-        <div class="seo-text" style="background:var(--glass-bg); padding:2rem; border-radius:12px; margin-top:2rem;">
-            <h2>Horoscope Gratuit du Jour</h2>
-            <p>Retrouvez votre horoscope quotidien complet sur Astro.lu...</p>
+
+        <div class="cta-section">
+            <h2>Explorez l'univers de l'astrologie</h2>
+            <p>Découvrez nos guides complets et articles pour approfondir vos connaissances</p>
+            <div class="cta-buttons">
+                <a href="blog/" class="btn-primary">Lire le blog</a>
+                <a href="guides/" class="btn-secondary">Consulter les guides</a>
+            </div>
         </div>
     
     </main>
 
     <footer class="site-footer">
-        <div class="container">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h4>Astro.lu</h4>
+                <p>Votre horoscope quotidien alimenté par l'intelligence artificielle.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Explorer</h4>
+                <ul>
+                    <li><a href="./">Horoscopes</a></li>
+                    <li><a href="./blog/">Blog</a></li>
+                    <li><a href="./guides/">Guides</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Suivez-nous</h4>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
             <p>&copy; 2026 Astro.lu &bull; Guidé par les étoiles.</p>
-            <p style="font-size: 0.75rem; opacity: 0.6; margin-top: 0.5rem;">
-                Dernière mise à jour des astres : 8 janvier 2026 à 13:53
-            </p>
+            <p class="update-time">Dernière mise à jour : 8 janvier 2026 à 17:20</p>
         </div>
     </footer>
 

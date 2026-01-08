@@ -1,17 +1,17 @@
 {
   "date": "jeudi 8 janvier 2026",
-  "teaser": "La Lune éclaire vos projets les plus secrets.",
-  "general": "Une énergie intuitive vous guide. Votre sensibilité sera votre meilleur atout pour saisir les opportunités qui se présentent dans l'ombre.",
-  "love": "Vos émotions sont à fleur de peau, favorisant les confidences et les rapprochements sincères. Une rencontre peut s'avérer décisive.",
-  "work": "Votre créativité et votre intuition vous permettront de résoudre des problèmes complexes avec une facilité déconcertante. Écoutez votre instinct.",
-  "health": "Prenez le temps de vous ressourcer. Votre énergie est fluctuante, privilégiez les activités calmes et un sommeil réparateur.",
+  "teaser": "La Lune éclaire votre chemin émotionnel.",
+  "general": "Sous l'influence bienveillante de la Lune, votre sensibilité sera votre meilleur atout. Écoutez votre intuition, elle vous guidera vers des décisions judicieuses.",
+  "love": "Vénus favorise les moments de tendresse. Exprimez vos sentiments avec authenticité. Une rencontre importante pourrait surprendre les célibataires.",
+  "work": "Votre créativité est au zénith. Un projet collaboratif prendra une tournure positive grâce à votre vision intuitive. Restez concentré.",
+  "health": "Priorité au repos pour recharger vos batteries émotionnelles. Une activité douce comme la marche vous apportera sérénité et équilibre.",
   "ratings": {
     "global": 4,
-    "love": 4,
-    "work": 5,
+    "love": 5,
+    "work": 4,
     "health": 3
   },
-  "advice": "Suivez votre première impression aujourd'hui.",
-  "lucky_number": 23,
-  "color": "Bleu nuit"
+  "advice": "Prenez une décision importante en écoutant votre petite voix intérieure.",
+  "lucky_number": 7,
+  "color": "Argent"
 }

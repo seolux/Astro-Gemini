@@ -4,20 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Horoscope Capricorne du Jour - Astro.lu</title>
-    <meta name="description" content="Prévisions gratuites pour le Capricorne aujourd'hui : Saturne illumine votre persévérance, une journée structurante vous attend">
+    <title>Horoscope Capricorne du Jour - Prévisions 22 Décembre - 19 Janvier | Astro.lu</title>
+    <meta name="description" content="Saturne illumine votre patience, récolte imminente - Découvrez l'horoscope complet du Capricorne : amour, travail, santé.">
     <link rel="canonical" href="https://astro.lu/horoscope-capricorne/">
     
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://astro.lu/horoscope-capricorne/">
-    <meta property="og:title" content="Horoscope Capricorne du Jour - Astro.lu">
-    <meta property="og:description" content="Prévisions gratuites pour le Capricorne aujourd'hui : Saturne illumine votre persévérance, une journée structurante vous attend">
+    <meta property="og:title" content="Horoscope Capricorne du Jour - Prévisions 22 Décembre - 19 Janvier | Astro.lu">
+    <meta property="og:description" content="Saturne illumine votre patience, récolte imminente - Découvrez l'horoscope complet du Capricorne : amour, travail, santé.">
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../style.css">
     <script src="https://unpkg.com/lucide@latest"></script>
+    
 </head>
 <body>
     <div class="video-overlay"></div>
@@ -33,6 +34,8 @@
             </a>
             <nav class="nav-links">
                 <a href="../">Accueil</a>
+                <a href="../blog/">Blog</a>
+                <a href="../guides/">Guides</a>
             </nav>
         </div>
     </header>
@@ -48,51 +51,90 @@
                     <p class="sign-dates">22 Décembre - 19 Janvier</p>
                     
                     <div class="header-meta">
-                        <span class="date-badge">Horoscope du jeudi 8 janvier 2026</span>
-                        <span class="lucky-badge">🍀 17 • Bordeaux</span>
+                        <span class="date-badge"><i data-lucide="calendar"></i> jeudi 8 janvier 2026</span>
+                        <span class="lucky-badge"><i data-lucide="sparkles"></i> 17 • bleu marine</span>
                     </div>
                 </header>
 
                 <div class="main-prediction">
-                    <p>Avec la Lune en harmonie avec votre signe, cette journée vous apporte clarté mentale et détermination. Votre patience légendaire sera récompensée.</p>
+                    <p>La planète Saturne vous sourit aujourd'hui. Votre persévérance des derniers mois commence à porter ses fruits. Une énergie de stabilité et de réussite vous accompagne.</p>
                     <div class="advice-box">
-                        <strong>💡 Conseil du jour :</strong> Listez vos trois priorités du jour dès le réveil et respectez cet ordre.
+                        <i data-lucide="lightbulb"></i>
+                        <div>
+                            <strong>Conseil du jour</strong>
+                            <p>Concentrez-vous sur vos objectifs à long terme.</p>
+                        </div>
                     </div>
                 </div>
 
                 <div class="domains-grid">
                     <section class="domain-card">
                         <div class="domain-header">
-                            <h3>❤️ Amour</h3>
+                            <h3><i data-lucide="heart"></i> Amour</h3>
                             <div class="rating-stars">★★★★☆</div>
                         </div>
-                        <p>Vénus favorise les conversations profondes. Un moment privilégié avec votre partenaire ou une rencontre significative pour les célibataires.</p>
+                        <p>Vénus encourage les conversations sincères. C'est le moment idéal pour exprimer vos sentiments à votre partenaire ou rencontrer quelqu'un de compatible.</p>
                     </section>
                     <section class="domain-card">
                         <div class="domain-header">
-                            <h3>💼 Travail</h3>
+                            <h3><i data-lucide="briefcase"></i> Travail</h3>
                             <div class="rating-stars">★★★★★</div>
                         </div>
-                        <p>Votre sens de l'organisation brille particulièrement. Une opportunité de leadership se présente, saisissez-la avec confiance.</p>
+                        <p>Votre discipline naturelle est renforcée par les astres. Un projet important pourrait aboutir. Les reconnaissances arrivent à point nommé.</p>
                     </section>
                     <section class="domain-card">
                         <div class="domain-header">
-                            <h3>⚕️ Santé</h3>
-                            <div class="rating-stars">★★★☆☆</div>
+                            <h3><i data-lucide="activity"></i> Santé</h3>
+                            <div class="rating-stars">★★★★☆</div>
                         </div>
-                        <p>Énergie stable mais attention aux tensions dorsales. Une séance de stretching matinale vous fera le plus grand bien.</p>
+                        <p>Équilibre et vitalité sont au rendez-vous. Profitez de cette énergie pour une séance de sport ou une promenade régénérante en plein air.</p>
                     </section>
+                </div>
+
+                <div class="share-section">
+                    <p>Partagez cet horoscope</p>
+                    <div class="share-buttons">
+                        <button onclick="shareHoroscope('facebook')" class="share-btn">
+                            <i data-lucide="facebook"></i>
+                        </button>
+                        <button onclick="shareHoroscope('twitter')" class="share-btn">
+                            <i data-lucide="twitter"></i>
+                        </button>
+                        <button onclick="copyLink()" class="share-btn">
+                            <i data-lucide="link"></i>
+                        </button>
+                    </div>
                 </div>
             </article>
         
     </main>
 
     <footer class="site-footer">
-        <div class="container">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h4>Astro.lu</h4>
+                <p>Votre horoscope quotidien alimenté par l'intelligence artificielle.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Explorer</h4>
+                <ul>
+                    <li><a href="../">Horoscopes</a></li>
+                    <li><a href="../blog/">Blog</a></li>
+                    <li><a href="../guides/">Guides</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Suivez-nous</h4>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+                    <a href="#" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+                    <a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
             <p>&copy; 2026 Astro.lu &bull; Guidé par les étoiles.</p>
-            <p style="font-size: 0.75rem; opacity: 0.6; margin-top: 0.5rem;">
-                Dernière mise à jour des astres : 8 janvier 2026 à 13:53
-            </p>
+            <p class="update-time">Dernière mise à jour : 8 janvier 2026 à 17:20</p>
         </div>
     </footer>
 

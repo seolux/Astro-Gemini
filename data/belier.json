@@ -1,17 +1,17 @@
 {
   "date": "jeudi 8 janvier 2026",
-  "teaser": "Mars vous pousse vers l'avant, les défis vous révèlent.",
-  "general": "Avec la Lune en harmonie avec votre Mars natal, l'énergie est au rendez-vous. Votre audace naturelle est décuplée, mais canalisez-la pour éviter l'impulsivité.",
-  "love": "Vénus encourage la spontanéité. Une rencontre inattendue pourrait vous surprendre. En couple, osez l'improvisation pour raviver la flamme.",
-  "work": "Votre leadership s'impose naturellement. Une opportunité audacieuse se présente, mais réfléchissez avant de foncer tête baissée.",
-  "health": "Votre vitalité est au top. Attention à ne pas vous épuiser par excès d'enthousiasme. Prévoyez des moments de calme pour récupérer.",
+  "teaser": "Mars vous pousse à foncer, mais Vénus tempère vos ardeurs.",
+  "general": "Avec Mars en aspect dynamique, votre énergie est à son comble. L'impulsivité vous guette. La Lune vous invite à écouter votre intuition.",
+  "love": "Journée propice aux rencontres inattendues. Évitez les discussions trop vives avec votre partenaire.",
+  "work": "Votre audace séduit. Une décision rapide pourrait changer la donne, mais vérifiez les détails.",
+  "health": "Votre vitalité est excellente. Attention aux petits excès et ménagez votre sommeil.",
   "ratings": {
     "global": 4,
-    "love": 4,
+    "love": 3,
     "work": 5,
-    "health": 3
+    "health": 4
   },
-  "advice": "Avancez avec courage, mais gardez un œil sur vos limites.",
+  "advice": "Respirez profondément avant de prendre une décision importante.",
   "lucky_number": 17,
-  "color": "Rouge"
+  "color": "Rouge corail"
 }

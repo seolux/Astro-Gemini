@@ -1,38 +1,34 @@
 {
   "belier": {
-    "teaser": "Les étoiles s'alignent pour un jour de puissance.",
-    "rating": 4
-  },
-  "taureau": {
-    "teaser": "L'harmonie intérieure révèle des opportunités insoupçonnées. Écoute ton intuition.",
+    "teaser": "L'audace paie, mais la prudence reste votre meilleure alliée.",
     "rating": 4
   },
   "gemeaux": {
-    "teaser": "L'inattendu frappe à votre porte. Soyez prêt à embrasser le changement.",
-    "rating": 3
+    "teaser": "L'intuition guide vos pas. Écoutez votre voix intérieure.",
+    "rating": 4
   },
   "cancer": {
-    "teaser": "Intuition exacerbée, écoutez votre cœur, il vous guide vers la lumière.",
-    "rating": 4
+    "teaser": "L'intuition guide vos pas. Écoutez votre voix intérieure.",
+    "rating": 3
   },
   "lion": {
-    "teaser": "Lumière intérieure ravivée. Osez rayonner, Lion, l'univers vous attend.",
+    "teaser": "Les étoiles vous guideront vers de nouvelles opportunités.",
     "rating": 4
   },
-  "vierge": {
-    "teaser": "La clarté s'invite. Un choix crucial se présente à vous.",
+  "balance": {
+    "teaser": "Une journée pour équilibrer amour et ambition",
     "rating": 4
   },
   "sagittaire": {
-    "teaser": "Le Sagittaire part en quête d'aventure cet été.",
+    "teaser": "L'aventure vous appelle, Sagittaire ! Écoutez votre cœur audacieux.",
+    "rating": 4
+  },
+  "capricorne": {
+    "teaser": "Persévérance récompensée. Gravir les sommets demande patience et détermination.",
     "rating": 4
   },
   "verseau": {
-    "teaser": "Les étoiles alignent des opportunités inattendues.",
-    "rating": 4
-  },
-  "poissons": {
-    "teaser": "Rêves lucides et intuitions aiguisées. Écoutez votre voix intérieure.",
+    "teaser": "L'innovation frappe à votre porte. Osez l'inattendu, Verseau !",
     "rating": 4
   }
 }

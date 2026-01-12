@@ -1,0 +1,241 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horoscope du Jour Gratuit | Astro.lu</title>
+    <meta name="description" content="Votre horoscope quotidien gratuit et complet, mis à jour en temps réel.">
+    <link rel="canonical" href="https://astro.lu/">
+    <link rel="icon" href="./favicon.png" type="image/png">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Outfit:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="video-overlay"></div>
+    <video autoplay muted loop playsinline id="bg-video"><source src="./zodiak.mp4" type="video/mp4"></video>
+
+    <header class="site-header">
+        <div class="top-bar">
+            <div class="container top-bar-content">
+                <span class="update-badge"><i data-lucide="clock" class="icon-sm"></i> Mise à jour : 12 janvier 2026 à 16:40</span>
+                <div class="top-socials">
+                    <span>Astro.lu</span>
+                </div>
+            </div>
+        </div>
+        <div class="main-header">
+            <div class="container header-content">
+                <a href="./" class="logo">
+                    <div class="logo-symbol"><i data-lucide="sparkles"></i></div>
+                    <span>Astro.lu</span>
+                </a>
+                <nav class="nav-links">
+                    <a href="./">Horoscope</a>
+                    <a href="./blog/">Blog & Conseils</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container main-wrapper">
+        <div class="hero-section">
+            <div class="hero-content">
+                <span class="hero-subtitle">Guidance Quotidienne</span>
+                <h1 class="hero-title">Horoscope du <span class="highlight-date">12 janvier</span></h1>
+                <p class="hero-desc">Les étoiles s'alignent pour vous. Découvrez ce que l'univers vous réserve aujourd'hui.</p>
+                
+                <div class="sign-calculator-widget">
+                    <h3><i data-lucide="search"></i> Calculez votre signe</h3>
+                    <div class="calculator-form">
+                        <select id="calc-day" class="form-select"></select>
+                        <select id="calc-month" class="form-select">
+                            <option value="0">Janvier</option><option value="1">Février</option><option value="2">Mars</option>
+                            <option value="3">Avril</option><option value="4">Mai</option><option value="5">Juin</option>
+                            <option value="6">Juillet</option><option value="7">Août</option><option value="8">Septembre</option>
+                            <option value="9">Octobre</option><option value="10">Novembre</option><option value="11">Décembre</option>
+                        </select>
+                        <button onclick="calculateSignRedirect()" class="btn-calc">Révéler</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="zodiac-grid-container">
+            <h2 class="section-title">Choisissez votre Signe</h2>
+            <div class="zodiac-grid">
+        <a href="horoscope-belier/" class="sign-card" data-sign="belier">
+            <div class="card-glow"></div>
+            <div class="sign-icon-wrapper">♈</div>
+            <div class="card-content">
+                <span class="sign-name">Bélier</span>
+                <span class="sign-date">21 Mars - 19 Avril</span>
+                <div class="stars-container">★★★★<span class="star-dim">★</span></div>
+                <p class="sign-teaser">Une journée pleine de promesses vous attend, osez agir !</p>
+                <span class="card-link">Lire l'horoscope <i data-lucide="arrow-right"></i></span>
+            </div>
+        </a>
+        <a href="horoscope-taureau/" class="sign-card" data-sign="taureau">
+            <div class="card-glow"></div>
+            <div class="sign-icon-wrapper">♉</div>
+            <div class="card-content">
+                <span class="sign-name">Taureau</span>
+                <span class="sign-date">20 Avril - 20 Mai</span>
+                <div class="stars-container">★★★★<span class="star-dim">★</span></div>
+                <p class="sign-teaser">Restez ancré et ouvrez votre cœur aujourd'hui !</p>
+                <span class="card-link">Lire l'horoscope <i data-lucide="arrow-right"></i></span>
+            </div>
+        </a>
+        <a href="horoscope-gemeaux/" class="sign-card" data-sign="gemeaux">
+            <div class="card-glow"></div>
+            <div class="sign-icon-wrapper">♊</div>
+            <div class="card-content">
+                <span class="sign-name">Gémeaux</span>
+                <span class="sign-date">21 Mai - 20 Juin</span>
+                <div class="stars-container">★★★★<span class="star-dim">★</span></div>
+                <p class="sign-teaser">Une journée pour briller et innover !</p>
+                <span class="card-link">Lire l'horoscope <i data-lucide="arrow-right"></i></span>
+            </div>
+        </a>
+        <a href="horoscope-cancer/" class="sign-card" data-sign="cancer">
+            <div class="card-glow"></div>
+            <div class="sign-icon-wrapper">♋</div>
+            <div class="card-content">
+                <span class="sign-name">Cancer</span>
+                <span class="sign-date">21 Juin - 22 Juillet</span>
+                <div class="stars-container">★★★★<span class="star-dim">★</span></div>
+                <p class="sign-teaser">Une journée riche en émotions vous attend, soyez prêt à l'accueillir.</p>
+                <span class="card-link">Lire l'horoscope <i data-lucide="arrow-right"></i></span>
+            </div>
+        </a>
+        <a href="horoscope-lion/" class="sign-card" data-sign="lion">
+            <div class="card-glow"></div>
+            <div class="sign-icon-wrapper">♌</div>
+            <div class="card-content">
+                <span class="sign-name">Lion</span>
+                <span class="sign-date">23 Juillet - 22 Août</span>
+                <div class="stars-container">★★★★<span class="star-dim">★</span></div>
+                <p class="sign-teaser">Rayonnez de confiance aujourd'hui, Lions !</p>
+                <span class="card-link">Lire l'horoscope <i data-lucide="arrow-right"></i></span>
+            </div>
+        </a>
+        <a href="horoscope-vierge/" class="sign-card" data-sign="vierge">
+            <div class="card-glow"></div>
+            <div class="sign-icon-wrapper">♍</div>
+            <div class="card-content">
+                <span class="sign-name">Vierge</span>
+                <span class="sign-date">23 Août - 22 Septembre</span>
+                <div class="stars-container">★★★★<span class="star-dim">★</span></div>
+                <p class="sign-teaser">Un jour pour se recentrer et avancer avec confiance.</p>
+                <span class="card-link">Lire l'horoscope <i data-lucide="arrow-right"></i></span>
+            </div>
+        </a>
+        <a href="horoscope-balance/" class="sign-card" data-sign="balance">
+            <div class="card-glow"></div>
+            <div class="sign-icon-wrapper">♎</div>
+            <div class="card-content">
+                <span class="sign-name">Balance</span>
+                <span class="sign-date">23 Septembre - 22 Octobre</span>
+                <div class="stars-container">★★★★<span class="star-dim">★</span></div>
+                <p class="sign-teaser">Aujourd'hui, laissez votre cœur s'exprimer !</p>
+                <span class="card-link">Lire l'horoscope <i data-lucide="arrow-right"></i></span>
+            </div>
+        </a>
+        <a href="horoscope-scorpion/" class="sign-card" data-sign="scorpion">
+            <div class="card-glow"></div>
+            <div class="sign-icon-wrapper">♏</div>
+            <div class="card-content">
+                <span class="sign-name">Scorpion</span>
+                <span class="sign-date">23 Octobre - 21 Novembre</span>
+                <div class="stars-container">★★★★<span class="star-dim">★</span></div>
+                <p class="sign-teaser">Un jour de transformation et d'introspection vous attend.</p>
+                <span class="card-link">Lire l'horoscope <i data-lucide="arrow-right"></i></span>
+            </div>
+        </a>
+        <a href="horoscope-sagittaire/" class="sign-card" data-sign="sagittaire">
+            <div class="card-glow"></div>
+            <div class="sign-icon-wrapper">♐</div>
+            <div class="card-content">
+                <span class="sign-name">Sagittaire</span>
+                <span class="sign-date">22 Novembre - 21 Décembre</span>
+                <div class="stars-container">★★★★<span class="star-dim">★</span></div>
+                <p class="sign-teaser">Une journée pleine de découvertes vous attend !</p>
+                <span class="card-link">Lire l'horoscope <i data-lucide="arrow-right"></i></span>
+            </div>
+        </a>
+        <a href="horoscope-capricorne/" class="sign-card" data-sign="capricorne">
+            <div class="card-glow"></div>
+            <div class="sign-icon-wrapper">♑</div>
+            <div class="card-content">
+                <span class="sign-name">Capricorne</span>
+                <span class="sign-date">22 Décembre - 19 Janvier</span>
+                <div class="stars-container">★★★★<span class="star-dim">★</span></div>
+                <p class="sign-teaser">Une journée propice pour avancer et renforcer vos liens.</p>
+                <span class="card-link">Lire l'horoscope <i data-lucide="arrow-right"></i></span>
+            </div>
+        </a>
+        <a href="horoscope-verseau/" class="sign-card" data-sign="verseau">
+            <div class="card-glow"></div>
+            <div class="sign-icon-wrapper">♒</div>
+            <div class="card-content">
+                <span class="sign-name">Verseau</span>
+                <span class="sign-date">20 Janvier - 18 Février</span>
+                <div class="stars-container">★★★★<span class="star-dim">★</span></div>
+                <p class="sign-teaser">Un jour prometteur pour explorer vos passions et renforcer vos liens.</p>
+                <span class="card-link">Lire l'horoscope <i data-lucide="arrow-right"></i></span>
+            </div>
+        </a>
+        <a href="horoscope-poissons/" class="sign-card" data-sign="poissons">
+            <div class="card-glow"></div>
+            <div class="sign-icon-wrapper">♓</div>
+            <div class="card-content">
+                <span class="sign-name">Poissons</span>
+                <span class="sign-date">19 Février - 20 Mars</span>
+                <div class="stars-container">★★★★<span class="star-dim">★</span></div>
+                <p class="sign-teaser">Laissez votre intuition vous guider aujourd'hui, Poissons !</p>
+                <span class="card-link">Lire l'horoscope <i data-lucide="arrow-right"></i></span>
+            </div>
+        </a></div>
+        </div>
+
+        <div class="cta-section">
+            <div class="cta-content">
+                <h2>Envie d'aller plus loin ?</h2>
+                <p>Explorez nos analyses approfondies et nos guides spirituels.</p>
+                <a href="blog/" class="btn-primary">Visiter le Blog</a>
+            </div>
+        </div></main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-col brand-col">
+                <div class="footer-logo">Astro.lu</div>
+                <p>Votre guide céleste quotidien. Des prédictions précises basées sur l'analyse des transits planétaires et la sagesse ancestrale.</p>
+                <div class="last-update-footer">
+                   <i data-lucide="refresh-cw"></i> Dernière mise à jour : <strong>12 janvier 2026 à 16:40</strong>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="./">Horoscope du Jour</a></li>
+                    <li><a href="./blog/">Blog Astrologique</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Mentions</h4>
+                <ul>
+                    <li><a href="#">Confidentialité</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Astro.lu &bull; Guidé par les étoiles.</p>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

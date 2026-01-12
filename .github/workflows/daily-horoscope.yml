@@ -1,0 +1,52 @@
+name: Daily Horoscope & Content Update
+
+on:
+  schedule:
+    - cron: '0 4 * * *' # Tous les jours à 4h00 UTC
+  workflow_dispatch: # Permet de lancer manuellement
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout du code
+        uses: actions/checkout@v4
+
+      - name: Installation de Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Installation des dépendances
+        run: npm install
+
+      - name: Génération du Site (Horoscopes + Blog)
+        env:
+          OPENROUTER_API_KEYS: ${{ secrets.OPENROUTER_API_KEYS }}
+        # ICI : On lance le nouveau script "Enhanced"
+        run: node update-enhanced.js
+
+      - name: Configuration Git
+        run: |
+          git config --global user.name "AstroBot"
+          git config --global user.email "bot@astro.lu"
+
+      - name: Sauvegarde du contenu généré (Commit)
+        run: |
+          git add .
+          git commit -m "Mise à jour automatique : Horoscopes & Blog" || echo "Rien à modifier"
+          git push
+
+      - name: Upload artifact for Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4

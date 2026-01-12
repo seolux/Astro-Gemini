@@ -1,0 +1,50 @@
+{
+  "taureau": {
+    "rating": 4,
+    "teaser": "Restez ancré et ouvrez votre cœur aujourd'hui !"
+  },
+  "belier": {
+    "rating": 4,
+    "teaser": "Une journée pleine de promesses vous attend, osez agir !"
+  },
+  "gemeaux": {
+    "rating": 4,
+    "teaser": "Une journée pour briller et innover !"
+  },
+  "cancer": {
+    "rating": 4,
+    "teaser": "Une journée riche en émotions vous attend, soyez prêt à l'accueillir."
+  },
+  "lion": {
+    "rating": 4,
+    "teaser": "Rayonnez de confiance aujourd'hui, Lions !"
+  },
+  "vierge": {
+    "rating": 4,
+    "teaser": "Un jour pour se recentrer et avancer avec confiance."
+  },
+  "sagittaire": {
+    "rating": 4,
+    "teaser": "Une journée pleine de découvertes vous attend !"
+  },
+  "balance": {
+    "rating": 4,
+    "teaser": "Aujourd'hui, laissez votre cœur s'exprimer !"
+  },
+  "scorpion": {
+    "rating": 4,
+    "teaser": "Un jour de transformation et d'introspection vous attend."
+  },
+  "poissons": {
+    "rating": 4,
+    "teaser": "Laissez votre intuition vous guider aujourd'hui, Poissons !"
+  },
+  "capricorne": {
+    "rating": 4,
+    "teaser": "Une journée propice pour avancer et renforcer vos liens."
+  },
+  "verseau": {
+    "rating": 4,
+    "teaser": "Un jour prometteur pour explorer vos passions et renforcer vos liens."
+  }
+}

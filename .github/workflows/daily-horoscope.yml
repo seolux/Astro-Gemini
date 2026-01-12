@@ -2,7 +2,7 @@ name: Daily Horoscope & Content Update
 
 on:
   schedule:
-    - cron: '0 4 * * *' # Tous les jours à 2h00 UTC
+    - cron: '0 2 * * *' # Tous les jours à 2h00 UTC
   workflow_dispatch:
 
 permissions:
@@ -12,6 +12,11 @@ permissions:
 
 jobs:
   build-and-deploy:
+    # --- AJOUT IMPORTANT ICI ---
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    # ---------------------------
     runs-on: ubuntu-latest
 
     steps:
@@ -28,7 +33,6 @@ jobs:
 
       - name: Génération du Site (Horoscopes + Blog)
         env:
-          # CORRECTION ICI : On utilise la clé OpenAI
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: node update-enhanced.js
 
@@ -43,7 +47,6 @@ jobs:
           git commit -m "Mise à jour automatique : Horoscopes & Blog" || echo "Rien à modifier"
           git push
 
-      # Nettoyage pour ne pas envoyer node_modules sur le site
       - name: Nettoyage avant déploiement
         run: rm -rf node_modules
 
@@ -53,4 +56,5 @@ jobs:
           path: .
 
       - name: Deploy to GitHub Pages
+        id: deployment # On ajoute un ID pour récupérer l'URL
         uses: actions/deploy-pages@v4

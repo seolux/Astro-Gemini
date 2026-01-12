@@ -2,7 +2,7 @@ name: Daily Horoscope & Content Update
 
 on:
   schedule:
-    - cron: '0 4 * * *' # Tous les jours à 4h00 UTC
+    - cron: '0 4 * * *' # Tous les jours à 2h00 UTC
   workflow_dispatch:
 
 permissions:

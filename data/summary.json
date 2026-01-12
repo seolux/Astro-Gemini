@@ -1,50 +1,50 @@
 {
   "gemeaux": {
     "rating": 4,
-    "teaser": "Un jour propice à la créativité et aux nouvelles connexions."
+    "teaser": "Un jour propice à la découverte et aux échanges pour les Gémeaux !"
   },
   "belier": {
-    "rating": 4,
-    "teaser": "L'énergie du jour vous pousse à agir, ne la laissez pas passer !"
+    "rating": 5,
+    "teaser": "Une journée pleine d'énergie vous attend, Béliers !"
   },
   "taureau": {
     "rating": 4,
-    "teaser": "Un jour pour se recentrer et renforcer les liens."
+    "teaser": "Stabilité et opportunités vous attendent aujourd'hui."
   },
   "lion": {
     "rating": 4,
-    "teaser": "Rayonnez aujourd'hui et laissez votre éclat guider vos pas !"
+    "teaser": "Rayonnez de confiance et d'énergie aujourd'hui !"
   },
   "vierge": {
     "rating": 4,
-    "teaser": "Un jour pour clarifier vos intentions et avancer sereinement."
+    "teaser": "Une journée d'harmonie et de clarté vous attend, Vierge !"
   },
   "cancer": {
     "rating": 4,
-    "teaser": "Un jour propice aux émotions et aux connexions profondes."
+    "teaser": "Une journée pour écouter votre cœur et nourrir vos relations."
   },
   "sagittaire": {
     "rating": 4,
-    "teaser": "Une journée pleine de découvertes vous attend!"
-  },
-  "scorpion": {
-    "rating": 4,
-    "teaser": "Une journée de transformation et d'introspection vous attend."
+    "teaser": "Explorez de nouvelles possibilités aujourd'hui!"
   },
   "balance": {
     "rating": 4,
-    "teaser": "Harmonisez votre journée avec les énergies astrales!"
+    "teaser": "Équilibrez votre journée avec harmonie et amour."
   },
-  "verseau": {
+  "scorpion": {
     "rating": 4,
-    "teaser": "Un jour plein de promesses et d'innovations vous attend !"
+    "teaser": "Une journée pleine de passion et de découvertes vous attend, Scorpion!"
   },
   "poissons": {
     "rating": 4,
-    "teaser": "Un jour propice à l'inspiration et à la connexion émotionnelle."
+    "teaser": "Inspirez-vous et laissez votre créativité s'épanouir!"
   },
   "capricorne": {
     "rating": 4,
-    "teaser": "Une journée propice à la planification et aux nouvelles rencontres!"
+    "teaser": "Votre journée promet des révélations enrichissantes."
+  },
+  "verseau": {
+    "rating": 5,
+    "teaser": "Une journée pleine de surprises vous attend, osez briller !"
   }
 }

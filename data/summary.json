@@ -1,50 +1,50 @@
 {
-  "gemeaux": {
-    "rating": 4,
-    "teaser": "Un jour propice à la découverte et aux échanges pour les Gémeaux !"
-  },
-  "belier": {
-    "rating": 5,
-    "teaser": "Une journée pleine d'énergie vous attend, Béliers !"
-  },
   "taureau": {
     "rating": 4,
-    "teaser": "Stabilité et opportunités vous attendent aujourd'hui."
+    "teaser": "Un jour de stabilité et d'harmonie vous attend !"
   },
-  "lion": {
+  "belier": {
     "rating": 4,
-    "teaser": "Rayonnez de confiance et d'énergie aujourd'hui !"
+    "teaser": "Une journée riche en émotions vous attend, préparez-vous à briller !"
+  },
+  "gemeaux": {
+    "rating": 4,
+    "teaser": "Laissez votre créativité s'exprimer aujourd'hui !"
   },
   "vierge": {
     "rating": 4,
-    "teaser": "Une journée d'harmonie et de clarté vous attend, Vierge !"
+    "teaser": "Une journée propice à la réflexion et à l'harmonie."
+  },
+  "lion": {
+    "rating": 4,
+    "teaser": "C'est le moment de briller, Lion !"
   },
   "cancer": {
     "rating": 4,
-    "teaser": "Une journée pour écouter votre cœur et nourrir vos relations."
-  },
-  "sagittaire": {
-    "rating": 4,
-    "teaser": "Explorez de nouvelles possibilités aujourd'hui!"
+    "teaser": "Une journée riche en émotions vous attend, écoutez votre cœur."
   },
   "balance": {
     "rating": 4,
-    "teaser": "Équilibrez votre journée avec harmonie et amour."
+    "teaser": "Harmonisez votre journée avec des choix éclairés."
   },
   "scorpion": {
     "rating": 4,
-    "teaser": "Une journée pleine de passion et de découvertes vous attend, Scorpion!"
+    "teaser": "Une journée pleine de passion et d'intuition vous attend !"
+  },
+  "sagittaire": {
+    "rating": 4,
+    "teaser": "Une journée pleine de découvertes et d'opportunités vous attend !"
+  },
+  "verseau": {
+    "rating": 4,
+    "teaser": "Une journée d'introspection et de connexion vous attend !"
   },
   "poissons": {
     "rating": 4,
-    "teaser": "Inspirez-vous et laissez votre créativité s'épanouir!"
+    "teaser": "Laissez votre intuition vous guider aujourd'hui!"
   },
   "capricorne": {
     "rating": 4,
-    "teaser": "Votre journée promet des révélations enrichissantes."
-  },
-  "verseau": {
-    "rating": 5,
-    "teaser": "Une journée pleine de surprises vous attend, osez briller !"
+    "teaser": "Une journée riche en opportunités vous attend, soyez prêt !"
   }
 }

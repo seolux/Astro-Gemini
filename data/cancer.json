@@ -1,11 +1,11 @@
 {
-  "date": "14 janvier 2026",
-  "general": "Aujourd'hui, les émotions sont à fleur de peau. Vous ressentirez une forte connexion avec vos proches, ce qui apportera chaleur et réconfort. Profitez de ce moment pour renforcer vos liens et partager vos sentiments.",
-  "love": "Exprimez vos émotions sincèrement pour renforcer votre relation.",
-  "work": "Restez organisé et concentrez-vous sur vos priorités, cela vous apportera des résultats positifs.",
-  "health": "Prenez le temps de vous ressourcer avec des activités apaisantes, comme la méditation ou une promenade en nature.",
-  "advice": "Écoutez votre cœur et laissez-le vous guider.",
-  "lucky_number": "27",
+  "date": "15 janvier 2026",
+  "general": "Aujourd'hui, les émotions sont à l'honneur pour les Cancer. Vous pourriez ressentir un fort besoin de vous rapprocher des personnes qui vous sont chères. Prenez le temps d'écouter votre cœur et de vous reconnecter avec vos proches.",
+  "love": "Ouvrez votre cœur et exprimez vos sentiments, cela renforcera vos liens.",
+  "work": "Restez concentré sur vos objectifs, même si des distractions se présentent.",
+  "health": "Accordez-vous un moment de détente pour recharger vos batteries.",
+  "advice": "Écoutez votre intuition, elle vous guidera.",
+  "lucky_number": "7",
   "color": "Bleu clair",
   "ratings": {
     "love": 4,
@@ -13,5 +13,5 @@
     "health": 4,
     "global": 4
   },
-  "teaser": "Aujourd'hui, laissez vos émotions guider vos actions."
+  "teaser": "Une journée placée sous le signe des émotions et des connexions."
 }

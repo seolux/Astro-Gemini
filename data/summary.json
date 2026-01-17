@@ -1,50 +1,50 @@
 {
-  "taureau": {
+  "belier": {
     "rating": 4,
-    "teaser": "Une journée pleine de promesses vous attend, ouvrez votre cœur!"
+    "teaser": "Aujourd'hui, l'énergie dynamique du Bélier vous pousse à agir !"
   },
   "gemeaux": {
     "rating": 4,
-    "teaser": "Aujourd'hui, ouvrez-vous aux nouvelles possibilités!"
+    "teaser": "Une journée pleine de surprises et de nouvelles connexions vous attend !"
   },
-  "belier": {
+  "taureau": {
     "rating": 4,
-    "teaser": "Une journée pleine d'énergie et de nouvelles possibilités vous attend !"
-  },
-  "vierge": {
-    "rating": 4,
-    "teaser": "Mettez de l'ordre dans votre vie aujourd'hui !"
-  },
-  "lion": {
-    "rating": 4,
-    "teaser": "Brillez de mille feux aujourd'hui, Lion !"
+    "teaser": "Une journée pleine de promesses vous attend, n'hésitez pas à saisir les occasions!"
   },
   "cancer": {
     "rating": 4,
-    "teaser": "Un jour pour écouter votre cœur et cultiver vos relations."
+    "teaser": "Explorez vos émotions et renforcez vos liens aujourd'hui !"
   },
-  "balance": {
+  "vierge": {
     "rating": 4,
-    "teaser": "Harmonisez votre journée avec amour et créativité !"
+    "teaser": "Aujourd'hui, mettez de l'ordre dans votre vie !"
   },
-  "sagittaire": {
+  "lion": {
     "rating": 4,
-    "teaser": "Aujourd'hui, l'aventure vous attend, osez la saisir !"
+    "teaser": "Aujourd'hui, le Lion est prêt à conquérir !"
   },
   "scorpion": {
     "rating": 4,
-    "teaser": "Une journée placée sous le signe de l'introspection et de la connexion."
+    "teaser": "Laissez votre cœur s'exprimer aujourd'hui, Scorpion !"
   },
-  "verseau": {
+  "balance": {
     "rating": 4,
-    "teaser": "Une journée pleine de créativité et de nouvelles opportunités vous attend !"
+    "teaser": "Trouvez votre équilibre aujourd'hui !"
   },
-  "capricorne": {
+  "sagittaire": {
     "rating": 4,
-    "teaser": "Une journée pleine de promesses vous attend, Capricorne !"
+    "teaser": "Une journée pleine de découvertes vous attend, osez l'exploration !"
   },
   "poissons": {
     "rating": 4,
-    "teaser": "Écoutez votre cœur et suivez votre intuition aujourd'hui !"
+    "teaser": "Une journée placée sous le signe de l'intuition et de l'amour."
+  },
+  "verseau": {
+    "rating": 5,
+    "teaser": "Laissez votre créativité s'exprimer aujourd'hui !"
+  },
+  "capricorne": {
+    "rating": 4,
+    "teaser": "Une journée d'opportunités vous attend !"
   }
 }

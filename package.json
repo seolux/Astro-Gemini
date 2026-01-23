@@ -1,0 +1,45 @@
+{
+  "name": "astro-lu",
+  "version": "2.1.0",
+  "description": "Site d'horoscope quotidien moderne alimenté par IA avec génération automatique de contenu",
+  "main": "update-enhanced.js",
+  "scripts": {
+    "update": "node update-enhanced.js",
+    "generate-horoscopes": "node generator.js",
+    "generate-content": "node content-generator.js",
+    "generate-static": "node generate-static.js",
+    "translate": "node translator-service.js",
+    "build": "node builder-enhanced.js",
+    "dev": "npm run update && npx serve .",
+    "start": "npx serve .",
+    "clean": "rm -rf horoscope-* blog content data/*.json sitemap.xml logs",
+    "deploy": "node update-enhanced.js && git add . && git commit -m \"Daily update\" && git push",
+    "test": "echo \"Tests coming soon\" && exit 0"
+  },
+  "keywords": [
+    "horoscope",
+    "astrologie",
+    "astrology"
+  ],
+  "author": "Astro.lu Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/seolux/Astro-Gemini.git"
+  },
+  "bugs": {
+    "url": "https://github.com/seolux/Astro-Gemini/issues"
+  },
+  "homepage": "https://astro.lu",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.13.2",
+    "dotenv": "^16.6.1"
+  },
+  "devDependencies": {
+    "serve": "^14.2.1"
+  }
+}

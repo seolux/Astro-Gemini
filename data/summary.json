@@ -1,0 +1,50 @@
+{
+  "gemeaux": {
+    "rating": 4,
+    "teaser": "Sortez de votre coquille et brillez aujourd'hui!"
+  },
+  "taureau": {
+    "rating": 4,
+    "teaser": "Un jour propice à la réflexion et à la croissance."
+  },
+  "belier": {
+    "rating": 4,
+    "teaser": "Saisissez l'opportunité de briller aujourd'hui!"
+  },
+  "cancer": {
+    "rating": 4,
+    "teaser": "Des changements positifs à l'horizon !"
+  },
+  "vierge": {
+    "rating": 4,
+    "teaser": "Équilibre et tendresse, un jour pour s'occuper de soi."
+  },
+  "lion": {
+    "rating": 4,
+    "teaser": "Amour et passion au rendez-vous aujourd'hui !"
+  },
+  "balance": {
+    "rating": 5,
+    "teaser": "Ose l'audace et transforme ta vie!"
+  },
+  "scorpion": {
+    "rating": 4,
+    "teaser": "Créez votre bonheur au quotidien, Scorpion !"
+  },
+  "sagittaire": {
+    "rating": 5,
+    "teaser": "Équilibrez votre corps et votre esprit aujourd'hui !"
+  },
+  "poissons": {
+    "rating": 4,
+    "teaser": "Faites confiance à vos instincts aujourd'hui!"
+  },
+  "verseau": {
+    "rating": 4,
+    "teaser": "Éveille ta motivation et brille aujourd'hui !"
+  },
+  "capricorne": {
+    "rating": 4,
+    "teaser": "Opportunités à saisir, soyez prêt!"
+  }
+}

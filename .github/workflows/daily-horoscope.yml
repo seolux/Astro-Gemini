@@ -1,0 +1,60 @@
+name: Daily Horoscope & Content Update
+
+on:
+  schedule:
+    - cron: '0 2 * * *' # Tous les jours à 2h00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    # --- AJOUT IMPORTANT ICI ---
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    # ---------------------------
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout du code
+        uses: actions/checkout@v4
+
+      - name: Installation de Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Installation des dépendances
+        run: npm install
+
+      - name: Génération du Site (Horoscopes + Blog)
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: node update-enhanced.js
+
+      - name: Configuration Git
+        run: |
+          git config --global user.name "AstroBot"
+          git config --global user.email "bot@astro.lu"
+
+      - name: Sauvegarde du contenu généré (Commit)
+        run: |
+          git add .
+          git commit -m "Mise à jour automatique : Horoscopes & Blog" || echo "Rien à modifier"
+          git push
+
+      - name: Nettoyage avant déploiement
+        run: rm -rf node_modules
+
+      - name: Upload artifact for Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+      - name: Deploy to GitHub Pages
+        id: deployment # On ajoute un ID pour récupérer l'URL
+        uses: actions/deploy-pages@v4

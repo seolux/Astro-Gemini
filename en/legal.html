@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal Notice | Astro.lu</title>
+    <meta name="description" content="Legal information and terms of use.">
+    <link rel="icon" href="../../favicon.png" type="image/png">
+    <link rel="stylesheet" href="../../style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Outfit:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <style>
+        /* Styles spécifiques pour les pages statiques */
+        .static-content h3 { color: var(--primary); margin-top: 2rem; margin-bottom: 1rem; font-family: var(--font-serif); }
+        .static-content p { margin-bottom: 1rem; color: #e2e8f0; }
+        .static-content ul { margin-bottom: 1.5rem; padding-left: 1.5rem; list-style-type: disc; color: #cbd5e1; }
+        .static-content li { margin-bottom: 0.5rem; }
+        .legal-info-box { background: rgba(255,255,255,0.05); padding: 1.5rem; border-radius: 12px; border: 1px solid var(--glass-border); margin-bottom: 2rem; }
+        iframe { border-radius: 12px; }
+    </style>
+</head>
+<body data-lang="en">
+    <div class="video-overlay"></div>
+    <video autoplay muted loop playsinline id="bg-video"><source src="../../zodiak.mp4" type="video/mp4"></video>
+
+    <header class="site-header">
+        <div class="main-header">
+            <div class="container header-content">
+                <a href="../" class="logo">
+                    <div class="logo-symbol"><i data-lucide="sparkles"></i></div>
+                    <span>Astro.lu</span>
+                </a>
+                <nav class="nav-links">
+                    <a href="../">Horoscope</a>
+                    <a href="../blog/">Blog & Tips</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="container main-wrapper" style="padding-top: 4rem; padding-bottom: 4rem;">
+        <div class="card-glass" style="padding: 2rem; max-width: 900px; margin: 0 auto;">
+            
+                    <div class="static-content" style="text-align:center; min-height:400px; display:flex; flex-direction:column; justify-content:center;">
+                        <h1 style="font-family: var(--font-serif); font-size: 2.5rem; margin-bottom: 2rem; color: var(--primary);">Legal Notice</h1>
+                        <p>Please refer to the French version for the legally binding terms.</p>
+                        <a href="../legal.html" style="color:var(--primary); text-decoration:underline;">Voir la version française (Original)</a>
+                    </div>
+                
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-grid">
+            <div class="footer-col brand-col">
+                <div class="footer-logo">Astro.lu</div>
+                <p>Your daily celestial guide.</p>
+                <div class="last-update-footer">
+                   <i data-lucide="refresh-cw"></i> Updated : <strong>22 January 2026</strong>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="../">Horoscope</a></li>
+                    <li><a href="../blog/">Blog & Tips</a></li>
+                </ul>
+            </div>
+             <div class="footer-col">
+                <h4>Information</h4>
+                <ul>
+                    <li><a href="legal.html">Legal</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Astro.lu &bull; Guided by the stars.</p>
+        </div>
+    </footer>
+    <script src="../../script.js"></script>
+</body>
+</html>

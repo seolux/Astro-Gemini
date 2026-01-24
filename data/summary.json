@@ -1,50 +1,50 @@
 {
-  "gemeaux": {
-    "rating": 4,
-    "teaser": "Sortez de votre coquille et brillez aujourd'hui!"
-  },
   "taureau": {
     "rating": 4,
-    "teaser": "Un jour propice à la réflexion et à la croissance."
+    "teaser": "Une journée riche en opportunités vous attend."
+  },
+  "gemeaux": {
+    "rating": 4,
+    "teaser": "Sors de ta coquille aujourd'hui!"
   },
   "belier": {
     "rating": 4,
-    "teaser": "Saisissez l'opportunité de briller aujourd'hui!"
-  },
-  "cancer": {
-    "rating": 4,
-    "teaser": "Des changements positifs à l'horizon !"
+    "teaser": "Saisissez l'opportunité, les étoiles sont avec vous !"
   },
   "vierge": {
     "rating": 4,
-    "teaser": "Équilibre et tendresse, un jour pour s'occuper de soi."
+    "teaser": "Un jour parfait pour faire le tri !"
   },
   "lion": {
+    "rating": 5,
+    "teaser": "Brillez de mille feux aujourd'hui, Lion !"
+  },
+  "cancer": {
     "rating": 4,
-    "teaser": "Amour et passion au rendez-vous aujourd'hui !"
+    "teaser": "Une journée pour écouter votre cœur."
   },
   "balance": {
-    "rating": 5,
-    "teaser": "Ose l'audace et transforme ta vie!"
+    "rating": 4,
+    "teaser": "Oserez-vous transformer votre vie aujourd'hui ?"
   },
   "scorpion": {
     "rating": 4,
-    "teaser": "Créez votre bonheur au quotidien, Scorpion !"
+    "teaser": "Amour et créativité au rendez-vous aujourd'hui !"
   },
   "sagittaire": {
     "rating": 5,
-    "teaser": "Équilibrez votre corps et votre esprit aujourd'hui !"
-  },
-  "poissons": {
-    "rating": 4,
-    "teaser": "Faites confiance à vos instincts aujourd'hui!"
+    "teaser": "Équilibre et créativité au rendez-vous aujourd'hui !"
   },
   "verseau": {
-    "rating": 4,
-    "teaser": "Éveille ta motivation et brille aujourd'hui !"
+    "rating": 5,
+    "teaser": "Inspirez et innovez, cher Verseau !"
   },
   "capricorne": {
     "rating": 4,
-    "teaser": "Opportunités à saisir, soyez prêt!"
+    "teaser": "Équilibrez amour et travail aujourd'hui!"
+  },
+  "poissons": {
+    "rating": 5,
+    "teaser": "Écoutez votre cœur aujourd'hui."
   }
 }

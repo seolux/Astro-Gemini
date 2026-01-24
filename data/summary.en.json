@@ -1,50 +1,50 @@
 {
-  "gemeaux": {
-    "rating": 4,
-    "teaser": "Break out and shine today!"
-  },
   "taureau": {
     "rating": 4,
-    "teaser": "A day for reflection and growth."
+    "teaser": "A day full of opportunities awaits!"
+  },
+  "gemeaux": {
+    "rating": 4,
+    "teaser": "Step out of your shell today!"
   },
   "belier": {
     "rating": 4,
-    "teaser": "Seize the chance to shine today!"
-  },
-  "cancer": {
-    "rating": 4,
-    "teaser": "Positive changes ahead!"
+    "teaser": "Seize the opportunity, the stars are on your side!"
   },
   "vierge": {
     "rating": 4,
-    "teaser": "Balance and kindness: a day for self-care."
+    "teaser": "A perfect day to declutter!"
   },
   "lion": {
+    "rating": 5,
+    "teaser": "Shine bright today, Leo!"
+  },
+  "cancer": {
     "rating": 4,
-    "teaser": "Love and passion are in the air today!"
+    "teaser": "A day to listen to your heart."
   },
   "balance": {
-    "rating": 5,
-    "teaser": "Embrace boldness and change your life!"
+    "rating": 4,
+    "teaser": "Will you dare to change your life today?"
   },
   "scorpion": {
     "rating": 4,
-    "teaser": "Create your daily happiness, Scorpio!"
+    "teaser": "Love and creativity await you today!"
   },
   "sagittaire": {
     "rating": 5,
-    "teaser": "Balance your body and mind today!"
-  },
-  "poissons": {
-    "rating": 4,
-    "teaser": "Trust your instincts today!"
+    "teaser": "Balance and creativity await today!"
   },
   "verseau": {
-    "rating": 4,
-    "teaser": "Spark your motivation and shine today!"
+    "rating": 5,
+    "teaser": "Inspire and innovate, dear Aquarius!"
   },
   "capricorne": {
     "rating": 4,
-    "teaser": "Seize the opportunities, be ready!"
+    "teaser": "Balance love and work today!"
+  },
+  "poissons": {
+    "rating": 5,
+    "teaser": "Listen to your heart today."
   }
 }

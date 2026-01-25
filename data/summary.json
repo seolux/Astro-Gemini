@@ -1,50 +1,50 @@
 {
-  "taureau": {
+  "belier": {
     "rating": 4,
-    "teaser": "Une journée riche en opportunités vous attend."
+    "teaser": "L'amour et la passion sont au rendez-vous aujourd'hui !"
   },
   "gemeaux": {
     "rating": 4,
-    "teaser": "Sors de ta coquille aujourd'hui!"
+    "teaser": "Explorez de nouvelles amitiés aujourd'hui !"
   },
-  "belier": {
+  "taureau": {
     "rating": 4,
-    "teaser": "Saisissez l'opportunité, les étoiles sont avec vous !"
-  },
-  "vierge": {
-    "rating": 4,
-    "teaser": "Un jour parfait pour faire le tri !"
-  },
-  "lion": {
-    "rating": 5,
-    "teaser": "Brillez de mille feux aujourd'hui, Lion !"
+    "teaser": "Introspection et nouveaux départs vous attendent."
   },
   "cancer": {
     "rating": 4,
-    "teaser": "Une journée pour écouter votre cœur."
+    "teaser": "Écoutez votre cœur aujourd'hui!"
+  },
+  "vierge": {
+    "rating": 4,
+    "teaser": "Inspiration et harmonie au rendez-vous aujourd'hui!"
+  },
+  "lion": {
+    "rating": 4,
+    "teaser": "Brillez et explorez votre potentiel aujourd'hui!"
   },
   "balance": {
     "rating": 4,
-    "teaser": "Oserez-vous transformer votre vie aujourd'hui ?"
+    "teaser": "Passion et prudence en amour aujourd'hui"
+  },
+  "sagittaire": {
+    "rating": 4,
+    "teaser": "Concentrez-vous sur l'essentiel et brillez!"
   },
   "scorpion": {
     "rating": 4,
-    "teaser": "Amour et créativité au rendez-vous aujourd'hui !"
-  },
-  "sagittaire": {
-    "rating": 5,
-    "teaser": "Équilibre et créativité au rendez-vous aujourd'hui !"
-  },
-  "verseau": {
-    "rating": 5,
-    "teaser": "Inspirez et innovez, cher Verseau !"
+    "teaser": "Un jour pour avancer et prendre le contrôle."
   },
   "capricorne": {
     "rating": 4,
-    "teaser": "Équilibrez amour et travail aujourd'hui!"
+    "teaser": "Un jour pour bâtir votre avenir."
   },
   "poissons": {
-    "rating": 5,
-    "teaser": "Écoutez votre cœur aujourd'hui."
+    "rating": 4,
+    "teaser": "Libérez votre créativité aujourd'hui !"
+  },
+  "verseau": {
+    "rating": 4,
+    "teaser": "L'innovation vous guide vers de nouvelles découvertes !"
   }
 }

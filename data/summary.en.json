@@ -1,50 +1,50 @@
 {
-  "taureau": {
+  "belier": {
     "rating": 4,
-    "teaser": "A day full of opportunities awaits!"
+    "teaser": "Love and passion await you today!"
   },
   "gemeaux": {
     "rating": 4,
-    "teaser": "Step out of your shell today!"
+    "teaser": "Discover new friendships today!"
   },
-  "belier": {
+  "taureau": {
     "rating": 4,
-    "teaser": "Seize the opportunity, the stars are on your side!"
-  },
-  "vierge": {
-    "rating": 4,
-    "teaser": "A perfect day to declutter!"
-  },
-  "lion": {
-    "rating": 5,
-    "teaser": "Shine bright today, Leo!"
+    "teaser": "Réflexion et nouveaux horizons vous appellent."
   },
   "cancer": {
     "rating": 4,
-    "teaser": "A day to listen to your heart."
+    "teaser": "Listen to your heart today!"
+  },
+  "vierge": {
+    "rating": 4,
+    "teaser": "Inspiration and harmony await today!"
+  },
+  "lion": {
+    "rating": 4,
+    "teaser": "Shine and discover your potential today!"
   },
   "balance": {
     "rating": 4,
-    "teaser": "Will you dare to change your life today?"
+    "teaser": "Love: Balance Passion with Caution Today!"
+  },
+  "sagittaire": {
+    "rating": 4,
+    "teaser": "Focus on what matters and shine!"
   },
   "scorpion": {
     "rating": 4,
-    "teaser": "Love and creativity await you today!"
-  },
-  "sagittaire": {
-    "rating": 5,
-    "teaser": "Balance and creativity await today!"
-  },
-  "verseau": {
-    "rating": 5,
-    "teaser": "Inspire and innovate, dear Aquarius!"
+    "teaser": "One day to take charge and move forward."
   },
   "capricorne": {
     "rating": 4,
-    "teaser": "Balance love and work today!"
+    "teaser": "One day to build your future."
   },
   "poissons": {
-    "rating": 5,
-    "teaser": "Listen to your heart today."
+    "rating": 4,
+    "teaser": "Unleash your creativity today!"
+  },
+  "verseau": {
+    "rating": 4,
+    "teaser": "Innovation leads you to new discoveries!"
   }
 }

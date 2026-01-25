@@ -1,50 +1,50 @@
 {
-  "taureau": {
+  "belier": {
     "rating": 4,
-    "teaser": "Une journée pleine d'opportunités vous attend !"
+    "teaser": "Amour et passion sont au programme aujourd'hui !"
   },
   "gemeaux": {
     "rating": 4,
-    "teaser": "Brise ta coquille aujourd'hui !"
+    "teaser": "Faites de nouvelles rencontres aujourd'hui !"
   },
-  "belier": {
+  "taureau": {
     "rating": 4,
-    "teaser": "Profitez-en, les étoiles sont de votre côté !"
-  },
-  "vierge": {
-    "rating": 4,
-    "teaser": "Un jour idéal pour trier !"
-  },
-  "lion": {
-    "rating": 5,
-    "teaser": "Levez-vous et brillez, Lion !"
+    "teaser": "Réflexion et renouveau vous attendent."
   },
   "cancer": {
     "rating": 4,
-    "teaser": "Un jour pour écouter votre cœur."
+    "teaser": "Horche dein Herz heute!"
+  },
+  "vierge": {
+    "rating": 4,
+    "teaser": "Inspiration et harmonie au programme aujourd'hui !"
+  },
+  "lion": {
+    "rating": 4,
+    "teaser": "Éclairez votre potentiel dès aujourd'hui !"
   },
   "balance": {
     "rating": 4,
-    "teaser": "Prêt à changer votre vie aujourd'hui ?"
+    "teaser": "Amour : entre passion et prudence."
+  },
+  "sagittaire": {
+    "rating": 4,
+    "teaser": "Focalisez-vous sur l'essentiel et rayonnez !"
   },
   "scorpion": {
     "rating": 4,
-    "teaser": "Amour et créativité au menu aujourd'hui !"
-  },
-  "sagittaire": {
-    "rating": 5,
-    "teaser": "Équilibre et créativité au menu aujourd'hui !"
-  },
-  "verseau": {
-    "rating": 5,
-    "teaser": "Atteignez l'inspiration, Verseau !"
+    "teaser": "Un jour pour agir et dominer."
   },
   "capricorne": {
     "rating": 4,
-    "teaser": "Amour et travail en harmonie aujourd'hui!"
+    "teaser": "Un jour pour façonner votre futur."
   },
   "poissons": {
-    "rating": 5,
-    "teaser": "Hör auf dein Herz heute."
+    "rating": 4,
+    "teaser": "Déchaînez votre créativité maintenant !"
+  },
+  "verseau": {
+    "rating": 4,
+    "teaser": "Innovation : votre chemin vers de nouvelles découvertes !"
   }
 }

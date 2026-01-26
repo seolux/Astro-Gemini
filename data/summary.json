@@ -1,50 +1,50 @@
 {
-  "belier": {
-    "rating": 4,
-    "teaser": "L'amour et la passion sont au rendez-vous aujourd'hui !"
-  },
   "gemeaux": {
     "rating": 4,
-    "teaser": "Explorez de nouvelles amitiés aujourd'hui !"
+    "teaser": "Un jour pour se recentrer et écouter son cœur."
   },
   "taureau": {
     "rating": 4,
-    "teaser": "Introspection et nouveaux départs vous attendent."
+    "teaser": "Révélez votre véritable essence aujourd'hui!"
   },
-  "cancer": {
+  "belier": {
     "rating": 4,
-    "teaser": "Écoutez votre cœur aujourd'hui!"
+    "teaser": "Ralentissez et savourez chaque instant."
   },
   "vierge": {
     "rating": 4,
-    "teaser": "Inspiration et harmonie au rendez-vous aujourd'hui!"
+    "teaser": "Un jour propice aux nouvelles connexions."
+  },
+  "cancer": {
+    "rating": 4,
+    "teaser": "Ressentez, connectez, épanouissez-vous aujourd'hui !"
   },
   "lion": {
-    "rating": 4,
-    "teaser": "Brillez et explorez votre potentiel aujourd'hui!"
+    "rating": 5,
+    "teaser": "Rayonnez de confiance et d'amour aujourd'hui !"
   },
-  "balance": {
-    "rating": 4,
-    "teaser": "Passion et prudence en amour aujourd'hui"
+  "scorpion": {
+    "rating": 3,
+    "teaser": "Embrassez l'amour et trouvez votre équilibre aujourd'hui."
   },
   "sagittaire": {
     "rating": 4,
-    "teaser": "Concentrez-vous sur l'essentiel et brillez!"
+    "teaser": "Réévaluez vos priorités pour avancer sereinement."
   },
-  "scorpion": {
+  "balance": {
     "rating": 4,
-    "teaser": "Un jour pour avancer et prendre le contrôle."
+    "teaser": "Élevez vos standards aujourd'hui, chère Balance."
   },
   "capricorne": {
     "rating": 4,
-    "teaser": "Un jour pour bâtir votre avenir."
+    "teaser": "Un jour pour bâtir votre avenir !"
   },
   "poissons": {
-    "rating": 4,
-    "teaser": "Libérez votre créativité aujourd'hui !"
+    "rating": 5,
+    "teaser": "Un jour de créativité et de connexion!"
   },
   "verseau": {
     "rating": 4,
-    "teaser": "L'innovation vous guide vers de nouvelles découvertes !"
+    "teaser": "Inspirez-vous, créez et connectez-vous aujourd'hui !"
   }
 }

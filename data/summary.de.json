@@ -1,50 +1,50 @@
 {
-  "belier": {
-    "rating": 4,
-    "teaser": "Amour et passion sont au programme aujourd'hui !"
-  },
   "gemeaux": {
     "rating": 4,
-    "teaser": "Faites de nouvelles rencontres aujourd'hui !"
+    "teaser": "Un jour pour se reconnecter à son cœur."
   },
   "taureau": {
     "rating": 4,
-    "teaser": "Réflexion et renouveau vous attendent."
+    "teaser": "Ensemble, révélez votre vraie essence !"
   },
-  "cancer": {
+  "belier": {
     "rating": 4,
-    "teaser": "Horche dein Herz heute!"
+    "teaser": "Langsam genießen!"
   },
   "vierge": {
     "rating": 4,
-    "teaser": "Inspiration et harmonie au programme aujourd'hui !"
+    "teaser": "Un jour pour de nouvelles rencontres."
+  },
+  "cancer": {
+    "rating": 4,
+    "teaser": "Ressentez, connectez, épanouissez-vous !"
   },
   "lion": {
-    "rating": 4,
-    "teaser": "Éclairez votre potentiel dès aujourd'hui !"
+    "rating": 5,
+    "teaser": "Brillez de confiance et d'amour aujourd'hui !"
   },
-  "balance": {
-    "rating": 4,
-    "teaser": "Amour : entre passion et prudence."
+  "scorpion": {
+    "rating": 3,
+    "teaser": "Accueillez l'amour et trouvez votre équilibre !"
   },
   "sagittaire": {
     "rating": 4,
-    "teaser": "Focalisez-vous sur l'essentiel et rayonnez !"
+    "teaser": "Réévaluez vos priorités pour avancer en paix."
   },
-  "scorpion": {
+  "balance": {
     "rating": 4,
-    "teaser": "Un jour pour agir et dominer."
+    "teaser": "Hebe deine Standards heute, liebe Waage!"
   },
   "capricorne": {
     "rating": 4,
-    "teaser": "Un jour pour façonner votre futur."
+    "teaser": "Un jour, un avenir !"
   },
   "poissons": {
-    "rating": 4,
-    "teaser": "Déchaînez votre créativité maintenant !"
+    "rating": 5,
+    "teaser": "Une journée de créativité et de liens!"
   },
   "verseau": {
     "rating": 4,
-    "teaser": "Innovation : votre chemin vers de nouvelles découvertes !"
+    "teaser": "Inspiriere, kreiere, verbinde dich heute!"
   }
 }

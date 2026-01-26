@@ -1,17 +1,17 @@
 {
-  "date": "25 Januar 2026",
-  "general": "Heute ermutigen die Sterne Sie, noch mehr zu strahlen. Eine kreative Energie durchflutet Ihren Tag und ermöglicht es Ihnen, neue Leidenschaften zu erkunden. Seien Sie bereit, bereichernde Entdeckungen über sich selbst zu machen.",
-  "love": "Öffnen Sie Ihr Herz und teilen Sie Ihre Emotionen mit Ihrem Partner, das wird Ihre Bindungen stärken.",
-  "work": "Präsentieren Sie Ihre mutigen Ideen während des Teammeetings, Ihr natürliches Leadership wird anerkannt werden.",
-  "health": "Gönnen Sie sich einen Moment der Entspannung in der Natur, das wird Ihren Geist revitalisieren.",
+  "date": "26 janvier 2026",
+  "general": "Heute bringt die Sonne in Konjunktion mit Jupiter eine strahlende Energie. Es ist ein Tag, an dem Ihr Charisma verstärkt wird, sodass Sie in Ihren Interaktionen glänzen können. Möglichkeiten treten auf, und Sie sind bereit, sie mit Vertrauen zu ergreifen.",
+  "love": "Wagen Sie es, Ihre Gefühle auszudrücken, Ihr Partner wird Ihre Aufrichtigkeit zu schätzen wissen.",
+  "work": "Übernehmen Sie die Initiative in einem Gruppenprojekt, Ihre Führungsqualität wird bewundert und wird sich auszahlen.",
+  "health": "Integrieren Sie eine körperliche Aktivität im Freien, dies wird Ihren Geist und Körper revitalisieren.",
   "advice": "Lassen Sie Ihr inneres Licht Ihre Schritte leiten.",
-  "lucky_number": "7",
+  "lucky_number": "23",
   "color": "Gold",
   "ratings": {
     "love": 4,
     "work": 5,
-    "health": 3,
-    "global": 4
+    "health": 4,
+    "global": 5
   },
-  "teaser": "Strahlen Sie und erkunden Sie heute Ihr Potenzial!"
+  "teaser": "Strahlen Sie heute Vertrauen und Liebe aus!"
 }

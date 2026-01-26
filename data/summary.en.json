@@ -1,50 +1,50 @@
 {
-  "belier": {
-    "rating": 4,
-    "teaser": "Love and passion await you today!"
-  },
   "gemeaux": {
     "rating": 4,
-    "teaser": "Discover new friendships today!"
+    "teaser": "A day to reconnect and listen to your heart."
   },
   "taureau": {
     "rating": 4,
-    "teaser": "Réflexion et nouveaux horizons vous appellent."
+    "teaser": "Unleash your true self today!"
   },
-  "cancer": {
+  "belier": {
     "rating": 4,
-    "teaser": "Listen to your heart today!"
+    "teaser": "Slow down and savor every moment."
   },
   "vierge": {
     "rating": 4,
-    "teaser": "Inspiration and harmony await today!"
+    "teaser": "A day for new connections."
+  },
+  "cancer": {
+    "rating": 4,
+    "teaser": "Feel, connect, thrive today!"
   },
   "lion": {
-    "rating": 4,
-    "teaser": "Shine and discover your potential today!"
+    "rating": 5,
+    "teaser": "Shine with confidence and love today!"
   },
-  "balance": {
-    "rating": 4,
-    "teaser": "Love: Balance Passion with Caution Today!"
+  "scorpion": {
+    "rating": 3,
+    "teaser": "Embrace love and find your balance today."
   },
   "sagittaire": {
     "rating": 4,
-    "teaser": "Focus on what matters and shine!"
+    "teaser": "Reprioritize for a smoother path forward."
   },
-  "scorpion": {
+  "balance": {
     "rating": 4,
-    "teaser": "One day to take charge and move forward."
+    "teaser": "Raise your standards today, dear Libra."
   },
   "capricorne": {
     "rating": 4,
-    "teaser": "One day to build your future."
+    "teaser": "One day to build your future!"
   },
   "poissons": {
-    "rating": 4,
-    "teaser": "Unleash your creativity today!"
+    "rating": 5,
+    "teaser": "A day of creativity and connection!"
   },
   "verseau": {
     "rating": 4,
-    "teaser": "Innovation leads you to new discoveries!"
+    "teaser": "Get inspired, create, and connect today!"
   }
 }

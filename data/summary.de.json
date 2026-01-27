@@ -1,50 +1,50 @@
 {
+  "belier": {
+    "rating": 4,
+    "teaser": "Transformations et intuition : un jour décisif !"
+  },
   "gemeaux": {
     "rating": 4,
-    "teaser": "Un jour pour se reconnecter à son cœur."
+    "teaser": "Wichtige Enthüllungen erwarten Sie heute!"
   },
   "taureau": {
     "rating": 4,
-    "teaser": "Ensemble, révélez votre vraie essence !"
-  },
-  "belier": {
-    "rating": 4,
-    "teaser": "Langsam genießen!"
+    "teaser": "Réévaluation et nouvelles perspectives en une journée."
   },
   "vierge": {
     "rating": 4,
-    "teaser": "Un jour pour de nouvelles rencontres."
+    "teaser": "Dévoilez votre potentiel dès aujourd'hui !"
+  },
+  "lion": {
+    "rating": 4,
+    "teaser": "Brille aujourd'hui, Lion !"
   },
   "cancer": {
     "rating": 4,
-    "teaser": "Ressentez, connectez, épanouissez-vous !"
-  },
-  "lion": {
-    "rating": 5,
-    "teaser": "Brillez de confiance et d'amour aujourd'hui !"
-  },
-  "scorpion": {
-    "rating": 3,
-    "teaser": "Accueillez l'amour et trouvez votre équilibre !"
-  },
-  "sagittaire": {
-    "rating": 4,
-    "teaser": "Réévaluez vos priorités pour avancer en paix."
+    "teaser": "Émotions en avant, épanouissement garanti !"
   },
   "balance": {
     "rating": 4,
-    "teaser": "Hebe deine Standards heute, liebe Waage!"
+    "teaser": "Hört heute auf euer Herz."
+  },
+  "sagittaire": {
+    "rating": 4,
+    "teaser": "Chère Sagittaire, chérissez-vous aujourd'hui !"
+  },
+  "scorpion": {
+    "rating": 4,
+    "teaser": "Libérez-vous et avancez !"
   },
   "capricorne": {
     "rating": 4,
-    "teaser": "Un jour, un avenir !"
+    "teaser": "Tag der Reflexion und Erneuerung!"
   },
   "poissons": {
     "rating": 5,
-    "teaser": "Une journée de créativité et de liens!"
+    "teaser": "Suivez votre cœur."
   },
   "verseau": {
     "rating": 4,
-    "teaser": "Inspiriere, kreiere, verbinde dich heute!"
+    "teaser": "Créez, innovez, brillez !"
   }
 }

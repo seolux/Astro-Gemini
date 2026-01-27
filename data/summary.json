@@ -1,50 +1,50 @@
 {
+  "belier": {
+    "rating": 4,
+    "teaser": "Transformations et intuition, un jour clé!"
+  },
   "gemeaux": {
     "rating": 4,
-    "teaser": "Un jour pour se recentrer et écouter son cœur."
+    "teaser": "Des révélations importantes vous attendent aujourd'hui !"
   },
   "taureau": {
     "rating": 4,
-    "teaser": "Révélez votre véritable essence aujourd'hui!"
-  },
-  "belier": {
-    "rating": 4,
-    "teaser": "Ralentissez et savourez chaque instant."
+    "teaser": "Une journée de réévaluation et de nouvelles perspectives."
   },
   "vierge": {
     "rating": 4,
-    "teaser": "Un jour propice aux nouvelles connexions."
+    "teaser": "Révélez votre potentiel caché aujourd'hui!"
+  },
+  "lion": {
+    "rating": 4,
+    "teaser": "Rayonnez aujourd'hui, Lion !"
   },
   "cancer": {
     "rating": 4,
-    "teaser": "Ressentez, connectez, épanouissez-vous aujourd'hui !"
-  },
-  "lion": {
-    "rating": 5,
-    "teaser": "Rayonnez de confiance et d'amour aujourd'hui !"
-  },
-  "scorpion": {
-    "rating": 3,
-    "teaser": "Embrassez l'amour et trouvez votre équilibre aujourd'hui."
-  },
-  "sagittaire": {
-    "rating": 4,
-    "teaser": "Réévaluez vos priorités pour avancer sereinement."
+    "teaser": "Émotions en avant, épanouissement assuré!"
   },
   "balance": {
     "rating": 4,
-    "teaser": "Élevez vos standards aujourd'hui, chère Balance."
+    "teaser": "Écoutez votre cœur aujourd'hui."
+  },
+  "sagittaire": {
+    "rating": 4,
+    "teaser": "Prenez soin de vous aujourd'hui, cher Sagittaire."
+  },
+  "scorpion": {
+    "rating": 4,
+    "teaser": "Libérez-vous et avancez vers votre avenir."
   },
   "capricorne": {
     "rating": 4,
-    "teaser": "Un jour pour bâtir votre avenir !"
+    "teaser": "Un jour de réflexion et de renouveau!"
   },
   "poissons": {
     "rating": 5,
-    "teaser": "Un jour de créativité et de connexion!"
+    "teaser": "Écoutez votre cœur et laissez-vous guider."
   },
   "verseau": {
     "rating": 4,
-    "teaser": "Inspirez-vous, créez et connectez-vous aujourd'hui !"
+    "teaser": "Créez, innovez, et rayonnez aujourd'hui !"
   }
 }

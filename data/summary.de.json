@@ -1,50 +1,50 @@
 {
+  "taureau": {
+    "rating": 4,
+    "teaser": "Une journée douce pour les Taureaux ! se traduit en allemand par : Ein sanfter Tag für die Stiere!"
+  },
   "belier": {
     "rating": 4,
-    "teaser": "Transformations et intuition : un jour décisif !"
+    "teaser": "Un jour énergisant vous attend !"
   },
   "gemeaux": {
     "rating": 4,
-    "teaser": "Wichtige Enthüllungen erwarten Sie heute!"
+    "teaser": "Libérez votre créativité !"
   },
-  "taureau": {
-    "rating": 4,
-    "teaser": "Réévaluation et nouvelles perspectives en une journée."
+  "lion": {
+    "rating": 5,
+    "teaser": "Faites briller votre éclat aujourd'hui !"
   },
   "vierge": {
     "rating": 4,
-    "teaser": "Dévoilez votre potentiel dès aujourd'hui !"
-  },
-  "lion": {
-    "rating": 4,
-    "teaser": "Brille aujourd'hui, Lion !"
+    "teaser": "Un jour de renouveau et d'opportunités !"
   },
   "cancer": {
     "rating": 4,
-    "teaser": "Émotions en avant, épanouissement garanti !"
-  },
-  "balance": {
-    "rating": 4,
-    "teaser": "Hört heute auf euer Herz."
-  },
-  "sagittaire": {
-    "rating": 4,
-    "teaser": "Chère Sagittaire, chérissez-vous aujourd'hui !"
+    "teaser": "Intenses émotions, profondes connexions aujourd'hui."
   },
   "scorpion": {
     "rating": 4,
-    "teaser": "Libérez-vous et avancez !"
+    "teaser": "Lass dich heute von deiner Intuition leiten!"
   },
-  "capricorne": {
+  "balance": {
     "rating": 4,
-    "teaser": "Tag der Reflexion und Erneuerung!"
+    "teaser": "Une journée d'harmonie et de découvertes vous attend ! se traduit en allemand par : Ein Tag voller Harmonie und Entdeckungen erwartet Sie!"
   },
-  "poissons": {
+  "sagittaire": {
     "rating": 5,
-    "teaser": "Suivez votre cœur."
+    "teaser": "Découvrez de nouvelles voies aujourd'hui !"
   },
   "verseau": {
     "rating": 4,
-    "teaser": "Créez, innovez, brillez !"
+    "teaser": "Affichez votre originalité aujourd'hui !"
+  },
+  "capricorne": {
+    "rating": 4,
+    "teaser": "Un jour pour se recentrer et progresser."
+  },
+  "poissons": {
+    "rating": 4,
+    "teaser": "Inspiration et amour sont là aujourd'hui !"
   }
 }

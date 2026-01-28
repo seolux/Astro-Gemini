@@ -1,50 +1,50 @@
 {
+  "taureau": {
+    "rating": 4,
+    "teaser": "Une journée douce pour les Taureaux!"
+  },
   "belier": {
     "rating": 4,
-    "teaser": "Transformations et intuition, un jour clé!"
+    "teaser": "Une journée pleine d'énergie vous attend !"
   },
   "gemeaux": {
     "rating": 4,
-    "teaser": "Des révélations importantes vous attendent aujourd'hui !"
+    "teaser": "Éveillez votre créativité aujourd'hui!"
   },
-  "taureau": {
-    "rating": 4,
-    "teaser": "Une journée de réévaluation et de nouvelles perspectives."
+  "lion": {
+    "rating": 5,
+    "teaser": "Brillez de mille feux aujourd'hui !"
   },
   "vierge": {
     "rating": 4,
-    "teaser": "Révélez votre potentiel caché aujourd'hui!"
-  },
-  "lion": {
-    "rating": 4,
-    "teaser": "Rayonnez aujourd'hui, Lion !"
+    "teaser": "Une journée de renouveau et d'opportunités!"
   },
   "cancer": {
     "rating": 4,
-    "teaser": "Émotions en avant, épanouissement assuré!"
-  },
-  "balance": {
-    "rating": 4,
-    "teaser": "Écoutez votre cœur aujourd'hui."
-  },
-  "sagittaire": {
-    "rating": 4,
-    "teaser": "Prenez soin de vous aujourd'hui, cher Sagittaire."
+    "teaser": "Émotions intenses et connexions profondes aujourd'hui."
   },
   "scorpion": {
     "rating": 4,
-    "teaser": "Libérez-vous et avancez vers votre avenir."
+    "teaser": "Laissez votre intuition vous guider aujourd'hui!"
   },
-  "capricorne": {
+  "balance": {
     "rating": 4,
-    "teaser": "Un jour de réflexion et de renouveau!"
+    "teaser": "Une journée d'harmonie et de découvertes vous attend!"
   },
-  "poissons": {
+  "sagittaire": {
     "rating": 5,
-    "teaser": "Écoutez votre cœur et laissez-vous guider."
+    "teaser": "Explorez de nouvelles avenues aujourd'hui !"
   },
   "verseau": {
     "rating": 4,
-    "teaser": "Créez, innovez, et rayonnez aujourd'hui !"
+    "teaser": "Exprimez votre originalité aujourd'hui !"
+  },
+  "capricorne": {
+    "rating": 4,
+    "teaser": "Une journée pour se recentrer et avancer."
+  },
+  "poissons": {
+    "rating": 4,
+    "teaser": "Inspiration et amour au rendez-vous aujourd'hui!"
   }
 }

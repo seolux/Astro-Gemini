@@ -1,50 +1,50 @@
 {
+  "gemeaux": {
+    "rating": 4,
+    "teaser": "Trop d'options? Écoutez votre cœur."
+  },
   "taureau": {
     "rating": 4,
-    "teaser": "Une journée douce pour les Taureaux!"
+    "teaser": "Restez ferme et ouvrez-vous aux opportunités."
   },
   "belier": {
     "rating": 4,
-    "teaser": "Une journée pleine d'énergie vous attend !"
-  },
-  "gemeaux": {
-    "rating": 4,
-    "teaser": "Éveillez votre créativité aujourd'hui!"
-  },
-  "lion": {
-    "rating": 5,
-    "teaser": "Brillez de mille feux aujourd'hui !"
-  },
-  "vierge": {
-    "rating": 4,
-    "teaser": "Une journée de renouveau et d'opportunités!"
+    "teaser": "Trouvez l'harmonie et brillez aujourd'hui !"
   },
   "cancer": {
     "rating": 4,
-    "teaser": "Émotions intenses et connexions profondes aujourd'hui."
+    "teaser": "Évoluez et renforcez vos liens aujourd'hui."
   },
-  "scorpion": {
+  "vierge": {
     "rating": 4,
-    "teaser": "Laissez votre intuition vous guider aujourd'hui!"
+    "teaser": "Écoutez vos instincts aujourd'hui, Vierge!"
+  },
+  "lion": {
+    "rating": 4,
+    "teaser": "Équilibrez vos émotions et flirtez aujourd'hui!"
   },
   "balance": {
     "rating": 4,
-    "teaser": "Une journée d'harmonie et de découvertes vous attend!"
+    "teaser": "Harmonie et équilibre au rendez-vous aujourd'hui !"
   },
   "sagittaire": {
-    "rating": 5,
-    "teaser": "Explorez de nouvelles avenues aujourd'hui !"
-  },
-  "verseau": {
     "rating": 4,
-    "teaser": "Exprimez votre originalité aujourd'hui !"
+    "teaser": "Une journée d'aventures et de découvertes vous attend."
+  },
+  "scorpion": {
+    "rating": 4,
+    "teaser": "Plongez dans vos émotions aujourd'hui !"
   },
   "capricorne": {
     "rating": 4,
-    "teaser": "Une journée pour se recentrer et avancer."
+    "teaser": "Recevez les bénédictions de l'univers aujourd'hui!"
+  },
+  "verseau": {
+    "rating": 4,
+    "teaser": "Un jour de découvertes et d'échanges!"
   },
   "poissons": {
     "rating": 4,
-    "teaser": "Inspiration et amour au rendez-vous aujourd'hui!"
+    "teaser": "Clarifiez vos relations aujourd'hui!"
   }
 }

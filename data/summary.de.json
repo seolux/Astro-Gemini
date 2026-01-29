@@ -1,50 +1,50 @@
 {
+  "gemeaux": {
+    "rating": 4,
+    "teaser": "Des choix en pagaille ? Suivez votre cœur."
+  },
   "taureau": {
     "rating": 4,
-    "teaser": "Une journée douce pour les Taureaux ! se traduit en allemand par : Ein sanfter Tag für die Stiere!"
+    "teaser": "Restez solides et saisissez les opportunités !"
   },
   "belier": {
     "rating": 4,
-    "teaser": "Un jour énergisant vous attend !"
-  },
-  "gemeaux": {
-    "rating": 4,
-    "teaser": "Libérez votre créativité !"
-  },
-  "lion": {
-    "rating": 5,
-    "teaser": "Faites briller votre éclat aujourd'hui !"
-  },
-  "vierge": {
-    "rating": 4,
-    "teaser": "Un jour de renouveau et d'opportunités !"
+    "teaser": "Trouve l'harmonie et brille !"
   },
   "cancer": {
     "rating": 4,
-    "teaser": "Intenses émotions, profondes connexions aujourd'hui."
+    "teaser": "Évoluez et renforcez vos liens dès aujourd'hui !"
   },
-  "scorpion": {
+  "vierge": {
     "rating": 4,
-    "teaser": "Lass dich heute von deiner Intuition leiten!"
+    "teaser": "Suivez vos instincts aujourd'hui, Vierge!"
+  },
+  "lion": {
+    "rating": 4,
+    "teaser": "Équilibrez vos émotions, flirtez maintenant!"
   },
   "balance": {
     "rating": 4,
-    "teaser": "Une journée d'harmonie et de découvertes vous attend ! se traduit en allemand par : Ein Tag voller Harmonie und Entdeckungen erwartet Sie!"
+    "teaser": "Harmonie et équilibre au programme aujourd'hui !"
   },
   "sagittaire": {
-    "rating": 5,
-    "teaser": "Découvrez de nouvelles voies aujourd'hui !"
-  },
-  "verseau": {
     "rating": 4,
-    "teaser": "Affichez votre originalité aujourd'hui !"
+    "teaser": "Une journée d'aventures vous attend !"
+  },
+  "scorpion": {
+    "rating": 4,
+    "teaser": "Vivez vos émotions aujourd'hui !"
   },
   "capricorne": {
     "rating": 4,
-    "teaser": "Un jour pour se recentrer et progresser."
+    "teaser": "Recevez les bénédictions de l'univers maintenant !"
+  },
+  "verseau": {
+    "rating": 4,
+    "teaser": "Un jour de découvertes et de partages !"
   },
   "poissons": {
     "rating": 4,
-    "teaser": "Inspiration et amour sont là aujourd'hui !"
+    "teaser": "Clarifiez vos liens aujourd'hui !"
   }
 }

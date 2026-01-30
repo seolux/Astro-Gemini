@@ -1,50 +1,50 @@
 {
-  "gemeaux": {
+  "belier": {
     "rating": 4,
-    "teaser": "Des choix en pagaille ? Suivez votre cœur."
+    "teaser": "Connectez-vous aujourd'hui !"
   },
   "taureau": {
     "rating": 4,
-    "teaser": "Restez solides et saisissez les opportunités !"
+    "teaser": "Entdecke dein Potenzial heute!"
   },
-  "belier": {
+  "gemeaux": {
     "rating": 4,
-    "teaser": "Trouve l'harmonie et brille !"
+    "teaser": "Glaub an die Magie und scheue dich nicht, um Hilfe zu bitten."
   },
   "cancer": {
     "rating": 4,
-    "teaser": "Évoluez et renforcez vos liens dès aujourd'hui !"
-  },
-  "vierge": {
-    "rating": 4,
-    "teaser": "Suivez vos instincts aujourd'hui, Vierge!"
+    "teaser": "Des liens plus forts vous attendent aujourd'hui."
   },
   "lion": {
-    "rating": 4,
-    "teaser": "Équilibrez vos émotions, flirtez maintenant!"
+    "rating": 5,
+    "teaser": "Aime et brille aujourd'hui, Lion!"
   },
-  "balance": {
-    "rating": 4,
-    "teaser": "Harmonie et équilibre au programme aujourd'hui !"
+  "vierge": {
+    "rating": 5,
+    "teaser": "Une journée sereine t'attend, Vierge !"
   },
   "sagittaire": {
     "rating": 4,
-    "teaser": "Une journée d'aventures vous attend !"
+    "teaser": "Connecte-toi, chéris-toi, brille aujourd'hui !"
   },
   "scorpion": {
     "rating": 4,
-    "teaser": "Vivez vos émotions aujourd'hui !"
+    "teaser": "Prends soin des tiens, amour et bien-être au programme !"
+  },
+  "balance": {
+    "rating": 4,
+    "teaser": "Amour et créativité en vedette aujourd'hui !"
   },
   "capricorne": {
     "rating": 4,
-    "teaser": "Recevez les bénédictions de l'univers maintenant !"
+    "teaser": "Exprimez-vous, obtenez ce que vous voulez."
   },
   "verseau": {
     "rating": 4,
-    "teaser": "Un jour de découvertes et de partages !"
+    "teaser": "Charisme et intuition brillent aujourd'hui!"
   },
   "poissons": {
     "rating": 4,
-    "teaser": "Clarifiez vos liens aujourd'hui !"
+    "teaser": "Entrez dans la magie de votre univers intérieur."
   }
 }

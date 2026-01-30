@@ -1,50 +1,50 @@
 {
-  "gemeaux": {
+  "belier": {
     "rating": 4,
-    "teaser": "Trop d'options? Écoutez votre cœur."
+    "teaser": "Connectez-vous avec les autres aujourd'hui!"
   },
   "taureau": {
     "rating": 4,
-    "teaser": "Restez ferme et ouvrez-vous aux opportunités."
+    "teaser": "Révélez votre potentiel aujourd'hui !"
   },
-  "belier": {
+  "gemeaux": {
     "rating": 4,
-    "teaser": "Trouvez l'harmonie et brillez aujourd'hui !"
+    "teaser": "Croyez en la magie et osez demander de l'aide."
   },
   "cancer": {
     "rating": 4,
-    "teaser": "Évoluez et renforcez vos liens aujourd'hui."
-  },
-  "vierge": {
-    "rating": 4,
-    "teaser": "Écoutez vos instincts aujourd'hui, Vierge!"
+    "teaser": "Des relations plus profondes vous attendent aujourd'hui."
   },
   "lion": {
-    "rating": 4,
-    "teaser": "Équilibrez vos émotions et flirtez aujourd'hui!"
+    "rating": 5,
+    "teaser": "Aimez et rayonnez aujourd'hui, cher Lion!"
   },
-  "balance": {
-    "rating": 4,
-    "teaser": "Harmonie et équilibre au rendez-vous aujourd'hui !"
+  "vierge": {
+    "rating": 5,
+    "teaser": "Une journée harmonieuse t'attend, Vierge !"
   },
   "sagittaire": {
     "rating": 4,
-    "teaser": "Une journée d'aventures et de découvertes vous attend."
+    "teaser": "Connectez-vous, chérissez-vous, brillez aujourd'hui !"
   },
   "scorpion": {
     "rating": 4,
-    "teaser": "Plongez dans vos émotions aujourd'hui !"
+    "teaser": "Attention à vos proches, amour et bien-être au rendez-vous!"
+  },
+  "balance": {
+    "rating": 4,
+    "teaser": "L'amour et la créativité sont à l'honneur aujourd'hui !"
   },
   "capricorne": {
     "rating": 4,
-    "teaser": "Recevez les bénédictions de l'univers aujourd'hui!"
+    "teaser": "Exprimez-vous et obtenez ce que vous désirez."
   },
   "verseau": {
     "rating": 4,
-    "teaser": "Un jour de découvertes et d'échanges!"
+    "teaser": "Charisme et intuition sont à l'honneur aujourd'hui!"
   },
   "poissons": {
     "rating": 4,
-    "teaser": "Clarifiez vos relations aujourd'hui!"
+    "teaser": "Découvrez la magie de votre monde intérieur."
   }
 }

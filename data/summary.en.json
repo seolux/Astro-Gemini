@@ -1,50 +1,50 @@
 {
-  "gemeaux": {
+  "belier": {
     "rating": 4,
-    "teaser": "Too many choices? Follow your heart."
+    "teaser": "Connect today!"
   },
   "taureau": {
     "rating": 4,
-    "teaser": "Stay strong and embrace opportunities."
+    "teaser": "Unlock your potential today!"
   },
-  "belier": {
+  "gemeaux": {
     "rating": 4,
-    "teaser": "Find your harmony and shine today!"
+    "teaser": "Believe in magic and dare to ask for help."
   },
   "cancer": {
     "rating": 4,
-    "teaser": "Grow and strengthen your connections today."
-  },
-  "vierge": {
-    "rating": 4,
-    "teaser": "Trust your instincts today, Virgo!"
+    "teaser": "Deeper connections await you today."
   },
   "lion": {
-    "rating": 4,
-    "teaser": "Balance your emotions and flirt today!"
+    "rating": 5,
+    "teaser": "Love and shine today, dear Leo!"
   },
-  "balance": {
-    "rating": 4,
-    "teaser": "Embrace harmony and balance today!"
+  "vierge": {
+    "rating": 5,
+    "teaser": "A harmonious day awaits you, Virgo!"
   },
   "sagittaire": {
     "rating": 4,
-    "teaser": "Get ready for a day of adventure and discovery!"
+    "teaser": "Connect, cherish, shine today!"
   },
   "scorpion": {
     "rating": 4,
-    "teaser": "Dive into your emotions today!"
+    "teaser": "Take care of your loved ones—love and wellness await!"
+  },
+  "balance": {
+    "rating": 4,
+    "teaser": "Love and creativity shine today!"
   },
   "capricorne": {
     "rating": 4,
-    "teaser": "Embrassez les bénédictions de l'univers aujourd'hui!"
+    "teaser": "Speak up and get what you want."
   },
   "verseau": {
     "rating": 4,
-    "teaser": "A day of discoveries and exchanges!"
+    "teaser": "Charisma and intuition take center stage today!"
   },
   "poissons": {
     "rating": 4,
-    "teaser": "Clarify your relationships today!"
+    "teaser": "Unleash the magic within you."
   }
 }

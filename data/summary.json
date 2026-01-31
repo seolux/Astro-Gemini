@@ -1,50 +1,50 @@
 {
-  "belier": {
-    "rating": 4,
-    "teaser": "Connectez-vous avec les autres aujourd'hui!"
-  },
   "taureau": {
     "rating": 4,
-    "teaser": "Révélez votre potentiel aujourd'hui !"
+    "teaser": "Des rencontres marquantes vous attendent aujourd'hui."
+  },
+  "belier": {
+    "rating": 4,
+    "teaser": "Explorez l'inconnu pour grandir aujourd'hui!"
   },
   "gemeaux": {
     "rating": 4,
-    "teaser": "Croyez en la magie et osez demander de l'aide."
+    "teaser": "Un jour de succès et de renouveau vous attend."
+  },
+  "lion": {
+    "rating": 4,
+    "teaser": "Rayonnez aujourd'hui, Lion !"
   },
   "cancer": {
     "rating": 4,
-    "teaser": "Des relations plus profondes vous attendent aujourd'hui."
-  },
-  "lion": {
-    "rating": 5,
-    "teaser": "Aimez et rayonnez aujourd'hui, cher Lion!"
+    "teaser": "Écoutez votre cœur aujourd'hui, il est sage."
   },
   "vierge": {
-    "rating": 5,
-    "teaser": "Une journée harmonieuse t'attend, Vierge !"
+    "rating": 4,
+    "teaser": "Une journée constructive vous attend, Vierge !"
   },
   "sagittaire": {
     "rating": 4,
-    "teaser": "Connectez-vous, chérissez-vous, brillez aujourd'hui !"
+    "teaser": "Libère-toi et accueille le soutien des autres."
   },
   "scorpion": {
     "rating": 4,
-    "teaser": "Attention à vos proches, amour et bien-être au rendez-vous!"
+    "teaser": "Écoutez votre cœur aujourd'hui !"
   },
   "balance": {
     "rating": 4,
-    "teaser": "L'amour et la créativité sont à l'honneur aujourd'hui !"
-  },
-  "capricorne": {
-    "rating": 4,
-    "teaser": "Exprimez-vous et obtenez ce que vous désirez."
-  },
-  "verseau": {
-    "rating": 4,
-    "teaser": "Charisme et intuition sont à l'honneur aujourd'hui!"
+    "teaser": "Une journée propice à l'affirmation de soi !"
   },
   "poissons": {
     "rating": 4,
-    "teaser": "Découvrez la magie de votre monde intérieur."
+    "teaser": "Inspirez-vous et laissez parler votre cœur !"
+  },
+  "verseau": {
+    "rating": 4,
+    "teaser": "Inspiration et créativité au rendez-vous aujourd'hui!"
+  },
+  "capricorne": {
+    "rating": 4,
+    "teaser": "Énergie créative au rendez-vous aujourd'hui!"
   }
 }

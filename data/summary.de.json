@@ -1,50 +1,50 @@
 {
-  "belier": {
-    "rating": 4,
-    "teaser": "Connectez-vous aujourd'hui !"
-  },
   "taureau": {
     "rating": 4,
-    "teaser": "Entdecke dein Potenzial heute!"
+    "teaser": "Des rencontres mémorables vous attendent aujourd'hui !"
+  },
+  "belier": {
+    "rating": 4,
+    "teaser": "Entdecke das Unbekannte, um heute zu wachsen!"
   },
   "gemeaux": {
     "rating": 4,
-    "teaser": "Glaub an die Magie und scheue dich nicht, um Hilfe zu bitten."
+    "teaser": "Un jour de succès et de renouveau vous attend !"
+  },
+  "lion": {
+    "rating": 4,
+    "teaser": "Brille aujourd'hui, Lion !"
   },
   "cancer": {
     "rating": 4,
-    "teaser": "Des liens plus forts vous attendent aujourd'hui."
-  },
-  "lion": {
-    "rating": 5,
-    "teaser": "Aime et brille aujourd'hui, Lion!"
+    "teaser": "Höre heute auf dein Herz, es ist weise."
   },
   "vierge": {
-    "rating": 5,
-    "teaser": "Une journée sereine t'attend, Vierge !"
+    "rating": 4,
+    "teaser": "Vierge, préparez-vous à une journée productive !"
   },
   "sagittaire": {
     "rating": 4,
-    "teaser": "Connecte-toi, chéris-toi, brille aujourd'hui !"
+    "teaser": "Libère-toi, accepte l'aide!"
   },
   "scorpion": {
     "rating": 4,
-    "teaser": "Prends soin des tiens, amour et bien-être au programme !"
+    "teaser": "Hört heute auf euer Herz!"
   },
   "balance": {
     "rating": 4,
-    "teaser": "Amour et créativité en vedette aujourd'hui !"
-  },
-  "capricorne": {
-    "rating": 4,
-    "teaser": "Exprimez-vous, obtenez ce que vous voulez."
-  },
-  "verseau": {
-    "rating": 4,
-    "teaser": "Charisme et intuition brillent aujourd'hui!"
+    "teaser": "Une journée pour s'affirmer !"
   },
   "poissons": {
     "rating": 4,
-    "teaser": "Entrez dans la magie de votre univers intérieur."
+    "teaser": "Laissez parler votre cœur !"
+  },
+  "verseau": {
+    "rating": 4,
+    "teaser": "Inspiration et créativité sont au programme aujourd'hui !"
+  },
+  "capricorne": {
+    "rating": 4,
+    "teaser": "Kreative Energie heute!"
   }
 }

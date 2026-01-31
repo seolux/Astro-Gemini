@@ -1,50 +1,50 @@
 {
-  "belier": {
-    "rating": 4,
-    "teaser": "Connect today!"
-  },
   "taureau": {
     "rating": 4,
-    "teaser": "Unlock your potential today!"
+    "teaser": "Exciting encounters await you today!"
+  },
+  "belier": {
+    "rating": 4,
+    "teaser": "Discover the unknown to grow today!"
   },
   "gemeaux": {
     "rating": 4,
-    "teaser": "Believe in magic and dare to ask for help."
+    "teaser": "A day of success and renewal awaits you."
+  },
+  "lion": {
+    "rating": 4,
+    "teaser": "Shine today, Leo!"
   },
   "cancer": {
     "rating": 4,
-    "teaser": "Deeper connections await you today."
-  },
-  "lion": {
-    "rating": 5,
-    "teaser": "Love and shine today, dear Leo!"
+    "teaser": "Listen to your heart today; it's wise."
   },
   "vierge": {
-    "rating": 5,
-    "teaser": "A harmonious day awaits you, Virgo!"
+    "rating": 4,
+    "teaser": "A productive day awaits you, Virgo!"
   },
   "sagittaire": {
     "rating": 4,
-    "teaser": "Connect, cherish, shine today!"
+    "teaser": "Embrace support and set yourself free!"
   },
   "scorpion": {
     "rating": 4,
-    "teaser": "Take care of your loved ones—love and wellness await!"
+    "teaser": "Listen to your heart today!"
   },
   "balance": {
     "rating": 4,
-    "teaser": "Love and creativity shine today!"
-  },
-  "capricorne": {
-    "rating": 4,
-    "teaser": "Speak up and get what you want."
-  },
-  "verseau": {
-    "rating": 4,
-    "teaser": "Charisma and intuition take center stage today!"
+    "teaser": "A day for self-empowerment!"
   },
   "poissons": {
     "rating": 4,
-    "teaser": "Unleash the magic within you."
+    "teaser": "Get inspired and let your heart speak!"
+  },
+  "verseau": {
+    "rating": 4,
+    "teaser": "Today is all about inspiration and creativity!"
+  },
+  "capricorne": {
+    "rating": 4,
+    "teaser": "Creative energy is in the air today!"
   }
 }

@@ -1,50 +1,50 @@
 {
   "taureau": {
     "rating": 4,
-    "teaser": "Exciting encounters await you today!"
+    "teaser": "Feel the gentle warmth today."
   },
   "belier": {
     "rating": 4,
-    "teaser": "Discover the unknown to grow today!"
+    "teaser": "Stay true to yourself today."
   },
   "gemeaux": {
     "rating": 4,
-    "teaser": "A day of success and renewal awaits you."
+    "teaser": "Brilliant ideas await you today!"
   },
   "lion": {
     "rating": 4,
-    "teaser": "Shine today, Leo!"
-  },
-  "cancer": {
-    "rating": 4,
-    "teaser": "Listen to your heart today; it's wise."
+    "teaser": "Discover your connections with passion today!"
   },
   "vierge": {
     "rating": 4,
-    "teaser": "A productive day awaits you, Virgo!"
+    "teaser": "Discover the unknown with a loved one today!"
   },
-  "sagittaire": {
+  "cancer": {
     "rating": 4,
-    "teaser": "Embrace support and set yourself free!"
+    "teaser": "Strong emotions and sweetness await!"
   },
   "scorpion": {
     "rating": 4,
-    "teaser": "Listen to your heart today!"
+    "teaser": "A day full of emotions and creativity!"
+  },
+  "sagittaire": {
+    "rating": 4,
+    "teaser": "An adventure-filled day awaits you!"
   },
   "balance": {
-    "rating": 4,
-    "teaser": "A day for self-empowerment!"
+    "rating": 5,
+    "teaser": "Balance your emotions and open your heart."
   },
   "poissons": {
     "rating": 4,
-    "teaser": "Get inspired and let your heart speak!"
+    "teaser": "Laughter and dreams on the agenda today!"
   },
   "verseau": {
     "rating": 4,
-    "teaser": "Today is all about inspiration and creativity!"
+    "teaser": "Embrace kindness and understanding today!"
   },
   "capricorne": {
     "rating": 4,
-    "teaser": "Creative energy is in the air today!"
+    "teaser": "A day to build strong dreams."
   }
 }

@@ -1,50 +1,50 @@
 {
   "taureau": {
     "rating": 4,
-    "teaser": "Des rencontres marquantes vous attendent aujourd'hui."
+    "teaser": "Ressens l'énergie douce et chaleureuse aujourd'hui."
   },
   "belier": {
     "rating": 4,
-    "teaser": "Explorez l'inconnu pour grandir aujourd'hui!"
+    "teaser": "Restez fidèles à vous-même aujourd'hui."
   },
   "gemeaux": {
     "rating": 4,
-    "teaser": "Un jour de succès et de renouveau vous attend."
+    "teaser": "Des idées brillantes vous attendent aujourd'hui !"
   },
   "lion": {
     "rating": 4,
-    "teaser": "Rayonnez aujourd'hui, Lion !"
-  },
-  "cancer": {
-    "rating": 4,
-    "teaser": "Écoutez votre cœur aujourd'hui, il est sage."
+    "teaser": "Explorez vos relations avec passion aujourd'hui!"
   },
   "vierge": {
     "rating": 4,
-    "teaser": "Une journée constructive vous attend, Vierge !"
+    "teaser": "Explorez l'inconnu avec un être cher aujourd'hui !"
   },
-  "sagittaire": {
+  "cancer": {
     "rating": 4,
-    "teaser": "Libère-toi et accueille le soutien des autres."
+    "teaser": "Émotions fortes et douceur au rendez-vous!"
   },
   "scorpion": {
     "rating": 4,
-    "teaser": "Écoutez votre cœur aujourd'hui !"
+    "teaser": "Une journée riche en émotions et créativité!"
+  },
+  "sagittaire": {
+    "rating": 4,
+    "teaser": "Une journée d'aventures et de découvertes vous attend !"
   },
   "balance": {
-    "rating": 4,
-    "teaser": "Une journée propice à l'affirmation de soi !"
+    "rating": 5,
+    "teaser": "Équilibrez vos émotions et ouvrez votre cœur."
   },
   "poissons": {
     "rating": 4,
-    "teaser": "Inspirez-vous et laissez parler votre cœur !"
+    "teaser": "Rires et rêves au programme aujourd'hui !"
   },
   "verseau": {
     "rating": 4,
-    "teaser": "Inspiration et créativité au rendez-vous aujourd'hui!"
+    "teaser": "Aujourd'hui, cultivez la douceur et la compréhension."
   },
   "capricorne": {
     "rating": 4,
-    "teaser": "Énergie créative au rendez-vous aujourd'hui!"
+    "teaser": "Un jour pour bâtir des rêves solides."
   }
 }

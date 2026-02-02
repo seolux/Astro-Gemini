@@ -1,50 +1,50 @@
 {
   "taureau": {
     "rating": 4,
-    "teaser": "Ressens la chaleur douce aujourd'hui."
-  },
-  "belier": {
-    "rating": 4,
-    "teaser": "Soyez vous-même aujourd'hui."
+    "teaser": "Hört auf eure Bedürfnisse und findet eure Balance."
   },
   "gemeaux": {
     "rating": 4,
-    "teaser": "Heute warten brillante Ideen auf Sie!"
+    "teaser": "Opportunités et intuition : restez vigilant aujourd'hui !"
   },
-  "lion": {
+  "belier": {
     "rating": 4,
-    "teaser": "Entrez dans vos relations avec passion aujourd'hui !"
-  },
-  "vierge": {
-    "rating": 4,
-    "teaser": "Découvrez l'inconnu ensemble aujourd'hui !"
+    "teaser": "Laissez libre cours à votre créativité aujourd'hui !"
   },
   "cancer": {
     "rating": 4,
-    "teaser": "Intensité et douceur au rendez-vous!"
+    "teaser": "Un jour pour se retrouver !"
   },
-  "scorpion": {
+  "vierge": {
+    "rating": 5,
+    "teaser": "Clarté et organisation au rendez-vous !"
+  },
+  "lion": {
     "rating": 4,
-    "teaser": "Ein Tag voller Emotionen und Kreativität!"
+    "teaser": "Brille aujourd'hui, Lion !"
   },
   "sagittaire": {
     "rating": 4,
-    "teaser": "Une journée d'aventures vous attend !"
+    "teaser": "Équilibrez passions et ambitions."
   },
   "balance": {
-    "rating": 5,
-    "teaser": "Équilibrez vos émotions, ouvrez votre cœur."
+    "rating": 4,
+    "teaser": "Feiere deine Echtheit heute!"
+  },
+  "scorpion": {
+    "rating": 4,
+    "teaser": "Équilibrez vos émotions maintenant."
   },
   "poissons": {
-    "rating": 4,
-    "teaser": "Lachen und Träume heute!"
-  },
-  "verseau": {
-    "rating": 4,
-    "teaser": "Cultivez douceur et compréhension aujourd'hui."
+    "rating": 3,
+    "teaser": "Achtung, wichtige Entscheidungen stehen bevor!"
   },
   "capricorne": {
     "rating": 4,
-    "teaser": "Un jour pour réaliser des rêves."
+    "teaser": "Transformez-vous, explorez!"
+  },
+  "verseau": {
+    "rating": 4,
+    "teaser": "Heute erwarten Sie Glanz und Aufmerksamkeit!"
   }
 }

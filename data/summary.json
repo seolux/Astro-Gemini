@@ -1,50 +1,50 @@
 {
   "taureau": {
     "rating": 4,
-    "teaser": "Ressens l'énergie douce et chaleureuse aujourd'hui."
-  },
-  "belier": {
-    "rating": 4,
-    "teaser": "Restez fidèles à vous-même aujourd'hui."
+    "teaser": "Écoutez vos besoins et retrouvez votre équilibre."
   },
   "gemeaux": {
     "rating": 4,
-    "teaser": "Des idées brillantes vous attendent aujourd'hui !"
+    "teaser": "Opportunités et intuition, restez attentif aujourd'hui!"
   },
-  "lion": {
+  "belier": {
     "rating": 4,
-    "teaser": "Explorez vos relations avec passion aujourd'hui!"
-  },
-  "vierge": {
-    "rating": 4,
-    "teaser": "Explorez l'inconnu avec un être cher aujourd'hui !"
+    "teaser": "Exprimez votre créativité sans retenue aujourd'hui!"
   },
   "cancer": {
     "rating": 4,
-    "teaser": "Émotions fortes et douceur au rendez-vous!"
+    "teaser": "Un jour pour se reconnecter à soi-même !"
   },
-  "scorpion": {
+  "vierge": {
+    "rating": 5,
+    "teaser": "Clarté et organisation au programme !"
+  },
+  "lion": {
     "rating": 4,
-    "teaser": "Une journée riche en émotions et créativité!"
+    "teaser": "Brillez comme jamais aujourd'hui, Lion !"
   },
   "sagittaire": {
     "rating": 4,
-    "teaser": "Une journée d'aventures et de découvertes vous attend !"
+    "teaser": "Équilibrez vos passions et vos ambitions."
   },
   "balance": {
-    "rating": 5,
-    "teaser": "Équilibrez vos émotions et ouvrez votre cœur."
+    "rating": 4,
+    "teaser": "Célébrez votre authenticité aujourd'hui!"
+  },
+  "scorpion": {
+    "rating": 4,
+    "teaser": "Équilibrez vos émotions aujourd'hui."
   },
   "poissons": {
-    "rating": 4,
-    "teaser": "Rires et rêves au programme aujourd'hui !"
-  },
-  "verseau": {
-    "rating": 4,
-    "teaser": "Aujourd'hui, cultivez la douceur et la compréhension."
+    "rating": 3,
+    "teaser": "Attention, des choix importants en perspective !"
   },
   "capricorne": {
     "rating": 4,
-    "teaser": "Un jour pour bâtir des rêves solides."
+    "teaser": "Transformez-vous et explorez de nouvelles opportunités."
+  },
+  "verseau": {
+    "rating": 4,
+    "teaser": "Éclat et attention vous attendent aujourd'hui!"
   }
 }

@@ -1,50 +1,50 @@
 {
   "taureau": {
     "rating": 4,
-    "teaser": "Écoutez vos besoins et retrouvez votre équilibre."
-  },
-  "gemeaux": {
-    "rating": 4,
-    "teaser": "Opportunités et intuition, restez attentif aujourd'hui!"
+    "teaser": "Un jour pour la sérénité et la créativité!"
   },
   "belier": {
     "rating": 4,
-    "teaser": "Exprimez votre créativité sans retenue aujourd'hui!"
+    "teaser": "Prenez soin de vous aujourd'hui !"
+  },
+  "gemeaux": {
+    "rating": 4,
+    "teaser": "Écoutez votre cœur aujourd'hui, cher Gémeaux."
   },
   "cancer": {
     "rating": 4,
-    "teaser": "Un jour pour se reconnecter à soi-même !"
+    "teaser": "Écoutez votre cœur aujourd'hui !"
   },
   "vierge": {
-    "rating": 5,
-    "teaser": "Clarté et organisation au programme !"
+    "rating": 4,
+    "teaser": "Une journée pleine de promesses vous attend !"
   },
   "lion": {
     "rating": 4,
-    "teaser": "Brillez comme jamais aujourd'hui, Lion !"
+    "teaser": "Rayonnez de confiance et d'amour aujourd'hui !"
   },
   "sagittaire": {
     "rating": 4,
-    "teaser": "Équilibrez vos passions et vos ambitions."
+    "teaser": "Créez, adaptez, et laissez-vous guider."
   },
   "balance": {
     "rating": 4,
-    "teaser": "Célébrez votre authenticité aujourd'hui!"
+    "teaser": "Équilibrez vos émotions aujourd'hui!"
   },
   "scorpion": {
     "rating": 4,
-    "teaser": "Équilibrez vos émotions aujourd'hui."
-  },
-  "poissons": {
-    "rating": 3,
-    "teaser": "Attention, des choix importants en perspective !"
+    "teaser": "Écoutez votre cœur et détendez-vous aujourd'hui."
   },
   "capricorne": {
     "rating": 4,
-    "teaser": "Transformez-vous et explorez de nouvelles opportunités."
+    "teaser": "Une journée propice à la détermination et à l'amour."
+  },
+  "poissons": {
+    "rating": 5,
+    "teaser": "Écoutez votre intuition aujourd'hui!"
   },
   "verseau": {
     "rating": 4,
-    "teaser": "Éclat et attention vous attendent aujourd'hui!"
+    "teaser": "Laissez libre cours à votre créativité aujourd'hui !"
   }
 }

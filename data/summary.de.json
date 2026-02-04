@@ -1,50 +1,50 @@
 {
   "taureau": {
     "rating": 4,
-    "teaser": "Un jour pour la paix et la créativité!"
+    "teaser": "Un jour pour se recentrer."
   },
   "belier": {
     "rating": 4,
-    "teaser": "Chouchoutez-vous aujourd'hui !"
+    "teaser": "Rééquilibrez votre numérique aujourd'hui!"
   },
   "gemeaux": {
-    "rating": 4,
-    "teaser": "Hör auf dein Herz heute, lieber Zwilling."
-  },
-  "cancer": {
-    "rating": 4,
-    "teaser": "Hör auf dein Herz heute!"
-  },
-  "vierge": {
-    "rating": 4,
-    "teaser": "Une journée prometteuse vous attend !"
+    "rating": 3,
+    "teaser": "Laissez le stress de côté aujourd'hui !"
   },
   "lion": {
     "rating": 4,
-    "teaser": "Brillez de confiance et d'amour aujourd'hui !"
+    "teaser": "Brille aujourd'hui, Lion !"
   },
-  "sagittaire": {
+  "cancer": {
     "rating": 4,
-    "teaser": "Créez, adaptez, suivez !"
+    "teaser": "Éveillez vos émotions, savourez la journée !"
   },
-  "balance": {
+  "vierge": {
     "rating": 4,
-    "teaser": "Équilibrez vos émotions maintenant !"
+    "teaser": "Écoutez votre cœur, de belles rencontres vous attendent."
   },
   "scorpion": {
     "rating": 4,
-    "teaser": "Hör auf dein Herz und entspann dich heute."
+    "teaser": "Intense émotions à l'horizon !"
+  },
+  "sagittaire": {
+    "rating": 4,
+    "teaser": "Rénovez votre énergie, peaufinez vos projets!"
+  },
+  "balance": {
+    "rating": 3,
+    "teaser": "Réfléchissez pour progresser !"
   },
   "capricorne": {
     "rating": 4,
-    "teaser": "Une journée pour la passion et la volonté."
+    "teaser": "Chérissez le présent, attirez les bénédictions."
   },
   "poissons": {
-    "rating": 5,
-    "teaser": "Suivez votre intuition aujourd'hui !"
+    "rating": 4,
+    "teaser": "Équilibrez esprit et corps dès aujourd'hui."
   },
   "verseau": {
     "rating": 4,
-    "teaser": "Exprimez votre créativité aujourd'hui !"
+    "teaser": "Changement à venir, avance avec sagesse."
   }
 }

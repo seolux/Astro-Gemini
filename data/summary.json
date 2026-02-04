@@ -1,50 +1,50 @@
 {
   "taureau": {
     "rating": 4,
-    "teaser": "Un jour pour la sérénité et la créativité!"
+    "teaser": "Un jour pour se recentrer et se préparer."
   },
   "belier": {
     "rating": 4,
-    "teaser": "Prenez soin de vous aujourd'hui !"
+    "teaser": "Rééquilibrez votre vie numérique aujourd'hui!"
   },
   "gemeaux": {
-    "rating": 4,
-    "teaser": "Écoutez votre cœur aujourd'hui, cher Gémeaux."
-  },
-  "cancer": {
-    "rating": 4,
-    "teaser": "Écoutez votre cœur aujourd'hui !"
-  },
-  "vierge": {
-    "rating": 4,
-    "teaser": "Une journée pleine de promesses vous attend !"
+    "rating": 3,
+    "teaser": "Ne laissez pas le stress vous freiner aujourd'hui."
   },
   "lion": {
     "rating": 4,
-    "teaser": "Rayonnez de confiance et d'amour aujourd'hui !"
+    "teaser": "Rayonnez aujourd'hui, Lion !"
   },
-  "sagittaire": {
+  "cancer": {
     "rating": 4,
-    "teaser": "Créez, adaptez, et laissez-vous guider."
+    "teaser": "Émotions en éveil, une journée à savourer!"
   },
-  "balance": {
+  "vierge": {
     "rating": 4,
-    "teaser": "Équilibrez vos émotions aujourd'hui!"
+    "teaser": "Écoutez votre cœur, de belles connexions vous attendent."
   },
   "scorpion": {
     "rating": 4,
-    "teaser": "Écoutez votre cœur et détendez-vous aujourd'hui."
+    "teaser": "Émotions intenses en perspective aujourd'hui !"
+  },
+  "sagittaire": {
+    "rating": 4,
+    "teaser": "Renouvelez votre énergie et affinez vos projets!"
+  },
+  "balance": {
+    "rating": 3,
+    "teaser": "Analysez vos pensées pour avancer positivement."
   },
   "capricorne": {
     "rating": 4,
-    "teaser": "Une journée propice à la détermination et à l'amour."
+    "teaser": "Appréciez le présent pour attirer de nouvelles bénédictions."
   },
   "poissons": {
-    "rating": 5,
-    "teaser": "Écoutez votre intuition aujourd'hui!"
+    "rating": 4,
+    "teaser": "Équilibrez votre esprit et votre corps aujourd'hui."
   },
   "verseau": {
     "rating": 4,
-    "teaser": "Laissez libre cours à votre créativité aujourd'hui !"
+    "teaser": "Change à l'horizon, avance avec sagesse."
   }
 }

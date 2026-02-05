@@ -1,50 +1,50 @@
 {
   "taureau": {
     "rating": 4,
-    "teaser": "Un jour pour se recentrer et se préparer."
+    "teaser": "Un jour de transformation et d'opportunités !"
+  },
+  "gemeaux": {
+    "rating": 4,
+    "teaser": "Célébrez vos liens aujourd'hui !"
   },
   "belier": {
     "rating": 4,
-    "teaser": "Rééquilibrez votre vie numérique aujourd'hui!"
-  },
-  "gemeaux": {
-    "rating": 3,
-    "teaser": "Ne laissez pas le stress vous freiner aujourd'hui."
+    "teaser": "Écoutez votre cœur et agissez ensemble."
   },
   "lion": {
     "rating": 4,
-    "teaser": "Rayonnez aujourd'hui, Lion !"
+    "teaser": "Brillez aujourd'hui, Lion !"
   },
   "cancer": {
     "rating": 4,
-    "teaser": "Émotions en éveil, une journée à savourer!"
+    "teaser": "Une journée pour écouter votre cœur."
   },
   "vierge": {
-    "rating": 4,
-    "teaser": "Écoutez votre cœur, de belles connexions vous attendent."
-  },
-  "scorpion": {
-    "rating": 4,
-    "teaser": "Émotions intenses en perspective aujourd'hui !"
+    "rating": 5,
+    "teaser": "Une journée pleine de surprises vous attend !"
   },
   "sagittaire": {
     "rating": 4,
-    "teaser": "Renouvelez votre énergie et affinez vos projets!"
+    "teaser": "Un jour pour briller et avancer!"
   },
   "balance": {
-    "rating": 3,
-    "teaser": "Analysez vos pensées pour avancer positivement."
+    "rating": 4,
+    "teaser": "Des succès en amour et au travail vous attendent !"
+  },
+  "scorpion": {
+    "rating": 5,
+    "teaser": "Des surprises amoureuses vous attendent aujourd'hui !"
   },
   "capricorne": {
     "rating": 4,
-    "teaser": "Appréciez le présent pour attirer de nouvelles bénédictions."
+    "teaser": "Une journée pour briller et avancer !"
   },
   "poissons": {
     "rating": 4,
-    "teaser": "Équilibrez votre esprit et votre corps aujourd'hui."
+    "teaser": "Écoutez votre cœur et laissez-vous guider."
   },
   "verseau": {
     "rating": 4,
-    "teaser": "Change à l'horizon, avance avec sagesse."
+    "teaser": "Inspiration et créativité au rendez-vous aujourd'hui !"
   }
 }

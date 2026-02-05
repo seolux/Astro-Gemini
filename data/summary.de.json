@@ -1,50 +1,50 @@
 {
   "taureau": {
     "rating": 4,
-    "teaser": "Un jour pour se recentrer."
+    "teaser": "Un jour de changement et d'opportunités !"
+  },
+  "gemeaux": {
+    "rating": 4,
+    "teaser": "Fêtez vos liens aujourd'hui !"
   },
   "belier": {
     "rating": 4,
-    "teaser": "Rééquilibrez votre numérique aujourd'hui!"
-  },
-  "gemeaux": {
-    "rating": 3,
-    "teaser": "Laissez le stress de côté aujourd'hui !"
+    "teaser": "Hört auf euer Herz und handelt gemeinsam."
   },
   "lion": {
     "rating": 4,
-    "teaser": "Brille aujourd'hui, Lion !"
+    "teaser": "Shine today, Leo!"
   },
   "cancer": {
     "rating": 4,
-    "teaser": "Éveillez vos émotions, savourez la journée !"
+    "teaser": "Une journée pour écouter votre cœur. se traduit en allemand par : Ein Tag, um auf dein Herz zu hören."
   },
   "vierge": {
-    "rating": 4,
-    "teaser": "Écoutez votre cœur, de belles rencontres vous attendent."
-  },
-  "scorpion": {
-    "rating": 4,
-    "teaser": "Intense émotions à l'horizon !"
+    "rating": 5,
+    "teaser": "Une journée surprise vous attend !"
   },
   "sagittaire": {
     "rating": 4,
-    "teaser": "Rénovez votre énergie, peaufinez vos projets!"
+    "teaser": "Un jour pour briller!"
   },
   "balance": {
-    "rating": 3,
-    "teaser": "Réfléchissez pour progresser !"
+    "rating": 4,
+    "teaser": "Amour et succès pro vous attendent !"
+  },
+  "scorpion": {
+    "rating": 5,
+    "teaser": "Des surprises romantiques vous attendent aujourd'hui !"
   },
   "capricorne": {
     "rating": 4,
-    "teaser": "Chérissez le présent, attirez les bénédictions."
+    "teaser": "Ein Tag zum Strahlen und Vorankommen!"
   },
   "poissons": {
     "rating": 4,
-    "teaser": "Équilibrez esprit et corps dès aujourd'hui."
+    "teaser": "Suivez votre cœur."
   },
   "verseau": {
     "rating": 4,
-    "teaser": "Changement à venir, avance avec sagesse."
+    "teaser": "Inspiration et créativité au top aujourd'hui !"
   }
 }

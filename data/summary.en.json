@@ -1,15 +1,15 @@
 {
   "taureau": {
     "rating": 4,
-    "teaser": "A day to refocus and recharge."
+    "teaser": "A day of transformation and opportunities!"
+  },
+  "gemeaux": {
+    "rating": 4,
+    "teaser": "Celebrate your bonds today!"
   },
   "belier": {
     "rating": 4,
-    "teaser": "Balance your digital life today!"
-  },
-  "gemeaux": {
-    "rating": 3,
-    "teaser": "Don't let stress hold you back today."
+    "teaser": "Listen to your heart and act together."
   },
   "lion": {
     "rating": 4,
@@ -17,34 +17,34 @@
   },
   "cancer": {
     "rating": 4,
-    "teaser": "Awakened emotions, a day to savor!"
+    "teaser": "A day to listen to your heart."
   },
   "vierge": {
-    "rating": 4,
-    "teaser": "Listen to your heart; beautiful connections await."
-  },
-  "scorpion": {
-    "rating": 4,
-    "teaser": "Intense emotions ahead today!"
+    "rating": 5,
+    "teaser": "A day full of surprises awaits you!"
   },
   "sagittaire": {
     "rating": 4,
-    "teaser": "Revitalize your energy and refine your projects!"
+    "teaser": "One day to shine and move forward!"
   },
   "balance": {
-    "rating": 3,
-    "teaser": "Examine your thoughts to move forward positively."
+    "rating": 4,
+    "teaser": "Love and career success await you!"
+  },
+  "scorpion": {
+    "rating": 5,
+    "teaser": "Love surprises await you today!"
   },
   "capricorne": {
     "rating": 4,
-    "teaser": "Embrace the present to attract new blessings."
+    "teaser": "Shine and thrive today!"
   },
   "poissons": {
     "rating": 4,
-    "teaser": "Balance your mind and body today."
+    "teaser": "Follow your heart and let it lead you."
   },
   "verseau": {
     "rating": 4,
-    "teaser": "Change ahead, move wisely."
+    "teaser": "Get inspired and creative today!"
   }
 }

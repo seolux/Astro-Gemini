@@ -71,6 +71,7 @@ const getHtml = (seo, content, pathToRoot, langCode, extraHead = '') => {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${seo.title}</title>
     <meta name="description" content="${seo.description}">
+    <meta name="google-adsense-account" content="ca-pub-5485139474721836">
     <link rel="icon" href="${assetPath}/favicon.png" type="image/png">
     <link rel="stylesheet" href="${assetPath}/style.css">
     <script src="https://unpkg.com/lucide@latest"></script>

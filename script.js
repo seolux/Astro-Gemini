@@ -2,6 +2,10 @@
  * SCRIPT-ENHANCED.JS - Fonctionnalités interactives avancées
  */
 
+const GA_MEASUREMENT_ID = 'G-1XS13SED7X';
+
+initializeGoogleAnalytics();
+
 document.addEventListener('DOMContentLoaded', () => {
     initializePage();
     initializeAnimations();
@@ -11,6 +15,27 @@ document.addEventListener('DOMContentLoaded', () => {
 // ========================================
 // INITIALIZATION
 // ========================================
+
+function initializeGoogleAnalytics() {
+    if (!GA_MEASUREMENT_ID) {
+        return;
+    }
+
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function gtag() {
+        window.dataLayer.push(arguments);
+    };
+
+    window.gtag('js', new Date());
+    window.gtag('config', GA_MEASUREMENT_ID, {
+        anonymize_ip: true,
+    });
+
+    const script = document.createElement('script');
+    script.async = true;
+    script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`;
+    document.head.appendChild(script);
+}
 
 function initializePage() {
     // Populate day selector
